@@ -78,7 +78,7 @@ export default function ProductRanges() {
             {/* Pouring Oil Image (Anti-Spill Technology) */}
             <div className="h-64 relative w-full overflow-hidden bg-slate-50 dark:bg-slate-950 border-t border-slate-200 dark:border-slate-800/80">
               <Image
-                src="/images/range_oil.png"
+                src="/images/range_oil_v2.jpg"
                 alt="Industrial Containers & Spouts in use (Anti-Spill Technology)"
                 fill
                 className="object-cover transition-transform duration-500 group-hover:scale-105"
@@ -140,7 +140,7 @@ export default function ProductRanges() {
             {/* Lotion Cap Image (Ergonomic Flow) */}
             <div className="h-64 relative w-full overflow-hidden bg-slate-50 dark:bg-slate-950 border-t border-slate-200 dark:border-slate-800/80">
               <Image
-                src="/images/range_lotion.png"
+                src="/images/range_lotion_v2.jpg"
                 alt="Precision Caps & Closures in use (Ergonomic Flow)"
                 fill
                 className="object-cover transition-transform duration-500 group-hover:scale-105"
