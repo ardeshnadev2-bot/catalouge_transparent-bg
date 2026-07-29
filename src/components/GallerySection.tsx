@@ -266,21 +266,16 @@ export default function GallerySection() {
                 className={`break-inside-avoid group relative glass-card rounded-2xl overflow-hidden cursor-pointer border border-primary-blue/5 hover:border-primary-blue/20 dark:hover:border-primary-green/20 ${item.aspect} w-full flex flex-col`}
               >
                 {/* Image panel */}
-                <div className="relative w-full h-full min-h-[220px] bg-slate-100 dark:bg-slate-950 flex items-center justify-center p-6 overflow-hidden">
-                  {/* High-Tech Technical Blueprint placeholder */}
-                  <div className="absolute inset-0 bg-gradient-to-br from-slate-100 to-slate-200/50 dark:from-slate-950 dark:to-slate-900 flex flex-col items-center justify-center p-6 select-none transition-transform duration-500 group-hover:scale-105">
-                    {/* Abstract technical blueprint grid lines */}
-                    <div className="absolute inset-0 bg-[linear-gradient(to_right,#8080800c_1px,transparent_1px),linear-gradient(to_bottom,#8080800c_1px,transparent_1px)] bg-[size:20px_20px] opacity-75" />
-                    
-                    {/* Glowing circle accent */}
-                    <div className="absolute w-24 h-24 rounded-full bg-primary-blue/5 dark:bg-primary-green/5 blur-xl group-hover:bg-primary-blue/10 dark:group-hover:bg-primary-green/10 transition-colors duration-300" />
-                    
-                    <div className="relative z-10 flex flex-col items-center text-center space-y-2">
-                      <div className="p-3.5 rounded-2xl bg-white dark:bg-slate-900 border border-slate-200/60 dark:border-slate-800/80 shadow-md group-hover:border-primary-blue/30 dark:group-hover:border-primary-green/30 transition-all duration-300 group-hover:scale-105 group-hover:shadow-lg">
-                        <item.icon className="w-8 h-8 text-primary-blue dark:text-primary-green" />
-                      </div>
-                    </div>
-                  </div>
+                <div className="relative w-full h-full min-h-[220px] bg-slate-100 dark:bg-slate-950 flex items-center justify-center overflow-hidden">
+                  <Image
+                    src={item.image}
+                    alt={item.title}
+                    fill
+                    className="object-cover transition-transform duration-500 group-hover:scale-105"
+                    sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                  />
+                  {/* Soft dark gradient overlay for text readability */}
+                  <div className="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-slate-950/30 to-transparent z-10" />
 
                   {/* Icon wrap */}
                   <div className="absolute top-4 left-4 z-20 w-8 h-8 rounded-lg bg-slate-950/80 border border-slate-800 flex items-center justify-center text-slate-300">
@@ -327,15 +322,15 @@ export default function GallerySection() {
                 className="max-w-3xl w-full bg-slate-900 border border-slate-800 rounded-3xl overflow-hidden shadow-2xl relative"
                 onClick={(e) => e.stopPropagation()}
               >
-                <div className="h-[300px] sm:h-[450px] w-full relative bg-slate-950 flex items-center justify-center p-8 border-b border-slate-800">
-                  {/* Lightbox technical placeholder */}
-                  <div className="absolute inset-0 bg-gradient-to-br from-slate-950 to-slate-900 flex flex-col items-center justify-center p-8 select-none">
-                    <div className="absolute inset-0 bg-[linear-gradient(to_right,#8080800a_1px,transparent_1px),linear-gradient(to_bottom,#8080800a_1px,transparent_1px)] bg-[size:24px_24px] opacity-75" />
-                    <div className="absolute w-36 h-36 rounded-full bg-primary-blue/5 dark:bg-primary-green/5 blur-2xl" />
-                    <div className="relative z-10 p-5 rounded-3xl bg-slate-900 border border-slate-800 shadow-xl">
-                      <selectedImage.icon className="w-12 h-12 text-primary-green" />
-                    </div>
-                  </div>
+                <div className="h-[300px] sm:h-[450px] w-full relative bg-slate-950 flex items-center justify-center border-b border-slate-800">
+                  <Image
+                    src={selectedImage.image}
+                    alt={selectedImage.title}
+                    fill
+                    className="object-contain"
+                    sizes="(max-width: 1024px) 100vw, 80vw"
+                    priority
+                  />
                 </div>
                 <div className="p-6 space-y-2.5">
                   <span className="inline-block text-[10px] uppercase font-bold tracking-wider text-primary-green bg-emerald-500/10 px-2 py-0.5 rounded">
