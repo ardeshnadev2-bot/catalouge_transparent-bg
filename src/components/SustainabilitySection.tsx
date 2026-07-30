@@ -102,12 +102,12 @@ export default function SustainabilitySection() {
           </div>
 
           <div className="lg:col-span-5 relative flex items-center justify-center w-full min-h-[320px]">
-            <div className="relative aspect-[3/2] w-full max-w-[500px] rounded-2xl overflow-hidden glass-card border border-emerald-500/10 shadow-lg hover:shadow-2xl transition-all duration-300">
+            <div className="relative aspect-[3/2] w-full max-w-[500px]">
               <Image
-                src="/images/sustainability_v1.png"
+                src="/images/sustainability_v2.png"
                 alt="SV Closures Sustainable Design"
                 fill
-                className="object-cover"
+                className="object-contain"
               />
             </div>
           </div>
