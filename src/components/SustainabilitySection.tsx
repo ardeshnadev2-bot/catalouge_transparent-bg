@@ -2,6 +2,7 @@
 
 import { Leaf, Award, Recycle, Sun } from 'lucide-react';
 import { useEffect, useState } from 'react';
+import Image from 'next/image';
 
 // Drifting leaf animations (CSS based for maximum performance)
 function FallingLeaves() {
