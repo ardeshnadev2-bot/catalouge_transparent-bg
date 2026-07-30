@@ -301,7 +301,7 @@ const productsData: Product[] = [
   },
   {
     id: 'sv-63-crimp-spout',
-    name: 'SV63C (63mm Crimp-On Spout Cap)',
+    name: 'SV63 (63mm Crimp-On Spout Cap)',
     image: '/images/product_sv63c.png',
     categories: ['spout', 'tamper-evident', 'oil-bottle', 'jerry-can'],
     material: 'Metal Ring + Virgin Polypropylene / LLDPE',
