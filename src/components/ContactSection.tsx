@@ -109,7 +109,7 @@ export default function ContactSection() {
                     <Phone className="w-5 h-5" />
                   </div>
                   <div>
-                    <span className="block text-[10px] font-bold uppercase tracking-wider text-slate-400 mb-0.5">Sales Hotlines</span>
+                    <span className="block text-[10px] font-bold uppercase tracking-wider text-slate-400 mb-0.5">Contact</span>
                     <div className="flex flex-col gap-0.5 text-text-light dark:text-slate-300 font-medium">
                       <a href="tel:+919909216358" className="hover:text-primary-blue transition-colors">
                         +91 99092 16358
@@ -130,9 +130,6 @@ export default function ContactSection() {
                     <div className="flex flex-col gap-0.5 text-text-light dark:text-slate-300 font-medium">
                       <a href="mailto:info@svclosures.com" className="hover:text-primary-blue transition-colors">
                         info@svclosures.com
-                      </a>
-                      <a href="mailto:info@svcaps.in" className="hover:text-primary-blue transition-colors">
-                        info@svcaps.in
                       </a>
                     </div>
                   </div>
