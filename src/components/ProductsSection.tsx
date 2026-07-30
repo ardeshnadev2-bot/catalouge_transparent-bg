@@ -160,7 +160,54 @@ const productsData: Product[] = [
       'Reliable Berg-style pouring control'
     ],
   },
-  // 9. 38mm screw cap
+  // 9. 63mm cap
+  {
+    id: 'sv-63-crimp-spout',
+    name: 'SV63 (63mm Crimp-On Spout Cap)',
+    image: '/images/product_sv63c.png',
+    categories: ['spout', 'tamper-evident', 'oil-bottle', 'jerry-can'],
+    material: 'Metal Ring + Virgin Polypropylene / LLDPE',
+    closureType: 'Crimp-On Retractable Spout',
+    tamperEvidence: 'Metal Crimped Base + Tear-off Ring',
+    diameter: '63 mm',
+    application: 'Industrial Jerrycans, Chemical Drums, Lubricants',
+    specifications: ['Double-loop pull ring for high traction', 'Anti-counterfeiting crimp fitment', 'EPDM gasket for hermetic seal'],
+  },
+  // 10. 24mm cap
+  {
+    id: 'sv-24-screw',
+    name: 'SV 24mm Rigid Screw Cap (High Neck)',
+    image: '/images/screw_cap.png',
+    categories: ['screw-cap', 'pharma', 'custom'],
+    material: 'HDPE',
+    closureType: 'Rigid-Screw (High Neck)',
+    tamperEvidence: 'Tear-off membrane',
+    diameter: 'DIN 24 mm',
+    application: 'Push-in/Press-fit on Metal Container',
+    specifications: [
+      'Market Category: Industrial',
+      'Market Segment: Motor oil / Automotive oil, Chemical products',
+      'High-neck rigid screw design'
+    ],
+  },
+  // 11. 57mm cap
+  {
+    id: 'sv-57-screw',
+    name: 'SV 57mm Rigid Jerrycan Cap',
+    image: '/images/screw_cap.png',
+    categories: ['screw-cap', 'jerry-can', 'tamper-evident'],
+    material: 'HDPE',
+    closureType: 'Rigid-Screw',
+    tamperEvidence: 'Tear-off membrane',
+    diameter: 'DIN 57 mm',
+    application: 'Push-in/Press-fit on Metal Container',
+    specifications: [
+      'Market Category: Industrial',
+      'Market Segment: Motor oil / Automotive oil, Chemical products',
+      'Heavy duty push-in / press-fit secure lock'
+    ],
+  },
+  // 12. 38mm
   {
     id: 'sv-38-screw',
     name: 'SV 38mm Rigid Screw Cap',
@@ -177,7 +224,7 @@ const productsData: Product[] = [
       'Rigid high-performance threads'
     ],
   },
-  // 10. 40mm pull out type lubricant cap
+  // 13. 40mm
   {
     id: 'sv-40-pullup',
     name: 'SV40 (40mm Plastic Pull-Up Spout Cap)',
@@ -190,7 +237,7 @@ const productsData: Product[] = [
     application: 'Jerry Cans, Plastic Bottles, Automotive Oils, Agrochemicals',
     specifications: ['Directional flow guide', 'Smooth pull-up extension', 'Resealable unscrew dust cap'],
   },
-  // 11. 50mm pull out type lubricant cap
+  // 14. 50mm
   {
     id: 'sv-50-pullup',
     name: 'SV50 (50mm Pull-Out Spout Cap)',
@@ -207,6 +254,20 @@ const productsData: Product[] = [
       'Directional flow guide spout'
     ],
   },
+  // 15. Handle
+  {
+    id: 'sv-handle-red',
+    name: 'SV Ergonomic Plastic Carrying Handle',
+    image: '/images/product_handle_red.jpg',
+    categories: ['custom', 'jerry-can'],
+    material: 'Heavy-Duty Polypropylene (PP)',
+    closureType: 'Snap-On Carrying Handle',
+    tamperEvidence: 'Not Applicable',
+    diameter: 'Fits Standard Container Neck Sizes',
+    application: 'Jerry Cans, 5L-10L Water Bottles, Oil Containers',
+    specifications: ['Ergonomic weight distribution', 'High load-bearing capacity', 'Tear and stretch-resistant'],
+  },
+  // Remaining Products
   {
     id: 'sv42',
     name: 'SV42 (42mm Press-Fit Spout Cap)',
@@ -224,19 +285,6 @@ const productsData: Product[] = [
     ],
   },
   {
-    id: 'sv-63-crimp-spout',
-    name: 'SV63 (63mm Crimp-On Spout Cap)',
-    image: '/images/product_sv63c.png',
-    categories: ['spout', 'tamper-evident', 'oil-bottle', 'jerry-can'],
-    material: 'Metal Ring + Virgin Polypropylene / LLDPE',
-    closureType: 'Crimp-On Retractable Spout',
-    tamperEvidence: 'Metal Crimped Base + Tear-off Ring',
-    diameter: '63 mm',
-    application: 'Industrial Jerrycans, Chemical Drums, Lubricants',
-    specifications: ['Double-loop pull ring for high traction', 'Anti-counterfeiting crimp fitment', 'EPDM gasket for hermetic seal'],
-  },
-
-  {
     id: 'sv-24-flip-wb',
     name: 'SV 24mm Flip-Top Cap (Smooth Finish)',
     image: '/images/product_fliptop_wb.jpg',
@@ -247,18 +295,6 @@ const productsData: Product[] = [
     diameter: '24 mm',
     application: 'Personal Care, Essential Oils, Shampoos, Pharma Creams',
     specifications: ['Ergonomic thumb tab', 'Precise dispensing control', 'Aesthetic gloss finish'],
-  },
-  {
-    id: 'sv-handle-red',
-    name: 'SV Ergonomic Plastic Carrying Handle',
-    image: '/images/product_handle_red.jpg',
-    categories: ['custom', 'jerry-can'],
-    material: 'Heavy-Duty Polypropylene (PP)',
-    closureType: 'Snap-On Carrying Handle',
-    tamperEvidence: 'Not Applicable',
-    diameter: 'Fits Standard Container Neck Sizes',
-    application: 'Jerry Cans, 5L-10L Water Bottles, Oil Containers',
-    specifications: ['Ergonomic weight distribution', 'High load-bearing capacity', 'Tear and stretch-resistant'],
   },
   {
     id: 'sv-custom',
