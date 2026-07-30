@@ -113,7 +113,7 @@ const productsData: Product[] = [
   {
     id: 'sv57c',
     name: 'SV57C (57mm Crimp-On Spout Cap)',
-    image: '/images/product_sv63c.png',
+    image: '/images/product_sv57c_transparent.png',
     categories: ['spout', 'jerry-can', 'tamper-evident'],
     material: 'HD/LDPE',
     closureType: 'Pull out type Spout',
@@ -130,7 +130,7 @@ const productsData: Product[] = [
   {
     id: 'sv67',
     name: 'SV67 (67mm Press-Fit Spout Cap)',
-    image: '/images/product_sv63c.png',
+    image: '/images/product_sv67_transparent.png',
     categories: ['spout', 'food-grade', 'jerry-can', 'tamper-evident'],
     material: 'HD/LDPE',
     closureType: 'Pull out type Spout',
