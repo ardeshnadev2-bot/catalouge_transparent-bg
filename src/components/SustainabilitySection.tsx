@@ -85,7 +85,7 @@ export default function SustainabilitySection() {
         
         {/* Row 1: Content Overlay */}
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center mb-16">
-          <div className="lg:col-span-7 space-y-6">
+          <div className="lg:col-span-6 space-y-6">
             <div className="inline-flex items-center gap-2 text-emerald-600 dark:text-emerald-400 font-bold text-sm tracking-wider uppercase">
               <Leaf className="w-5 h-5 text-primary-green animate-bounce" />
               Eco-Friendly Manufacturing
@@ -101,8 +101,8 @@ export default function SustainabilitySection() {
             </div>
           </div>
 
-          <div className="lg:col-span-5 relative flex items-center justify-center w-full min-h-[320px]">
-            <div className="relative aspect-[3/2] w-full max-w-[500px]">
+          <div className="lg:col-span-6 relative flex items-center justify-center w-full min-h-[350px] lg:min-h-[440px]">
+            <div className="relative aspect-[3/2] w-full max-w-[600px]">
               <Image
                 src="/images/sustainability_v2.png"
                 alt="SV Closures Sustainable Design"
