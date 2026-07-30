@@ -39,7 +39,7 @@ export const metadata: Metadata = {
     description: "Manufacturing high-quality plastic caps, closures, spouts, and dispensing systems trusted by industries worldwide.",
     type: "website",
     locale: "en_US",
-    images: [{ url: "/images/logo.png", width: 800, height: 600, alt: "SV Closures Logo" }]
+    images: [{ url: "/images/logo_v2.png", width: 800, height: 600, alt: "SV Closures Logo" }]
   }
 };
 

@@ -378,7 +378,7 @@ const productsData: Product[] = [
   {
     id: 'sv-custom',
     name: 'Bespoke Brand Closure Mold',
-    image: '/images/logo.png',
+    image: '/images/logo_v2.png',
     categories: ['custom'],
     material: 'HDPE / PP / Custom Polymers',
     closureType: 'Custom Spec Tooling',
@@ -580,7 +580,7 @@ export default function ProductsSection() {
                         alt={prod.name}
                         fill
                         className={`transition-all duration-300 ${
-                          prod.image === '/images/logo.png' 
+                          prod.image === '/images/logo_v2.png' 
                             ? 'object-contain p-8 dark:drop-shadow-[0_0_2px_rgba(255,255,255,0.85)]' 
                             : 'object-cover'
                         }`}
