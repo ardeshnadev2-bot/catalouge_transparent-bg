@@ -79,7 +79,7 @@ const productsData: Product[] = [
   {
     id: 'sv43c',
     name: 'SV43C (43mm Crimp-On Spout Cap)',
-    image: '/images/product_spout_crimp_pullring.jpg',
+    image: '/images/product_sv43_crimp_transparent.png',
     categories: ['spout', 'oil-bottle', 'tamper-evident'],
     material: 'HD/LDPE',
     closureType: 'Pull out type Spout',
