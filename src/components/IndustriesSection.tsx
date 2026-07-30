@@ -138,7 +138,7 @@ export default function IndustriesSection() {
         <div className="relative rounded-3xl overflow-hidden glass-card mb-20">
           <div className="relative aspect-[21/9] md:aspect-[21/6] w-full">
             <Image
-              src="/images/industries_banner_v2.jpg"
+              src="/images/industries_banner_v3.jpg"
               alt="Tailored Closure Solutions"
               fill
               className="object-cover"

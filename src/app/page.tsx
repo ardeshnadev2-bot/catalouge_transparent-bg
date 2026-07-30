@@ -4,7 +4,6 @@ import { useState, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Navbar } from '@/components/Navbar';
 import HeroSection from '@/components/HeroSection';
-import ClienteleSection from '@/components/ClienteleSection';
 import ProductRanges from '@/components/ProductRanges';
 import AboutSection from '@/components/AboutSection';
 import IndustriesSection from '@/components/IndustriesSection';
@@ -104,7 +103,6 @@ export default function Home() {
               className="space-y-0"
             >
               <HeroSection />
-              <ClienteleSection />
               <ProductRanges />
               <GlobalReachMap />
               <ProductsSection />
@@ -127,7 +125,6 @@ export default function Home() {
               transition={{ duration: 0.4, ease: 'easeInOut' }}
             >
               <HeroSection />
-              <ClienteleSection />
               <ProductRanges />
               <Certifications />
             </motion.div>

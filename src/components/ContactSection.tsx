@@ -333,7 +333,7 @@ export default function ContactSection() {
         {/* Google Map location frame */}
         <div className="mt-16 glass-card rounded-3xl p-2.5 overflow-hidden shadow-md">
           <iframe
-            src="https://maps.google.com/maps?q=Plot%20No.30/A,%20Tilara%20Gate,%20Rajkot,%20Gujarat,%20India&t=&z=14&ie=UTF8&iwloc=&output=embed"
+            src="https://maps.google.com/maps?q=SV%20Closures%20Private%20Limited,%20Plot%20No%2030%20A,%20Galaxy%20Industrial%20Estate,%20Tilara%20Gate,%20NH%2027,%20Veraval%20(Shapar),%20Rajkot,%20Gujarat%20360024,%20India&t=&z=14&ie=UTF8&iwloc=&output=embed"
             width="100%"
             height="400"
             style={{ border: 0 }}

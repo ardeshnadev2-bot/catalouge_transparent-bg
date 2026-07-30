@@ -38,7 +38,7 @@ function AnimatedCounter({ value, duration = 1.5 }: { value: string; duration?: 
  
 const carouselImages = [
   {
-    src: '/images/factory_molding.png',
+    src: '/images/factory_molding_v2.png',
     alt: 'Injection Molding Production Floor',
     title: 'Precision & Efficiency in Every Production Run',
     description: 'Our state-of-the-art manufacturing facility ensures seamless mass production with high-speed automation and quality control at every stage. From concept to large-scale manufacturing, we deliver customized plastic components with consistency, efficiency, and industry-leading standards.',

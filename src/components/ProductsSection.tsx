@@ -32,18 +32,24 @@ const categories = [
 ];
 
 const productsData: Product[] = [
+  // 1. 32mm cap
   {
     id: 'sv32',
     name: 'SV32 (32mm Press-Fit Spout Cap)',
     image: '/images/product_sv32.png',
     categories: ['spout', 'food-grade', 'oil-bottle', 'tamper-evident'],
-    material: 'HDPE / LLDPE Virgin Polymer',
-    closureType: 'Press-Fit Retractable Spout',
-    tamperEvidence: 'Tear-Off Pull Ring + Outer Cap Seal',
-    diameter: '32 mm',
-    application: 'Edible Oil Bottles, Packaging Containers',
-    specifications: ['High flow control', 'Dual lip leak prevention', 'Retractable design'],
+    material: 'HD/LDPE',
+    closureType: 'Pull out type Spout',
+    tamperEvidence: 'Tear-off membrane',
+    diameter: 'DIN 32 mm',
+    application: 'Press-Fit on Metal Container',
+    specifications: [
+      'Market Category: Food - Industrial',
+      'Market Segment: Olive oil, Chemical products',
+      'Leak-proof retractable pull-out design'
+    ],
   },
+  // 2. 32mm c cap
   {
     id: 'sv32c',
     name: 'SV32C (32mm Crimp-On Spout Cap)',
@@ -56,30 +62,7 @@ const productsData: Product[] = [
     application: 'Engine Oils, Lubricants, Tin Containers',
     specifications: ['Hermetic leak prevention', 'Anti-counterfeiting crimp fitment', 'Smooth pull-up flow control'],
   },
-  {
-    id: 'sv-40-pullup',
-    name: 'SV40 (40mm Plastic Pull-Up Spout Cap)',
-    image: '/images/product_sv40p.png',
-    categories: ['spout', 'tamper-evident', 'oil-bottle', 'jerry-can'],
-    material: 'High-Density Polyethylene (HDPE) / PP',
-    closureType: 'Threaded Pull-Up Retractable Spout',
-    tamperEvidence: 'Tear-off Top Pull Tab + Outer Cap Seal',
-    diameter: '40 mm',
-    application: 'Jerry Cans, Plastic Bottles, Automotive Oils, Agrochemicals',
-    specifications: ['Directional flow guide', 'Smooth pull-up extension', 'Resealable unscrew dust cap'],
-  },
-  {
-    id: 'sv42',
-    name: 'SV42 (42mm Press-Fit Spout Cap)',
-    image: '/images/product_sv42.png',
-    categories: ['spout', 'jerry-can', 'oil-bottle', 'tamper-evident'],
-    material: 'HDPE / LLDPE Virgin Polymer',
-    closureType: 'Press-Fit Retractable Spout',
-    tamperEvidence: 'Tear-Off Pull Ring + Inner Locking Ridges',
-    diameter: '42 mm',
-    application: 'Automotive Oils, Lubricants, Solvents',
-    specifications: ['Antiglug venting', 'Chemical resistant liner', 'Heavy wall thickness'],
-  },
+  // 3. 43mm cap
   {
     id: 'sv43',
     name: 'SV43 (43mm Press-Fit Spout Cap)',
@@ -92,29 +75,205 @@ const productsData: Product[] = [
     application: 'Chemical Containers, Lubricants, Carboys',
     specifications: ['Enhanced flow control', 'Dual lip leak prevention', 'Optimized wall density'],
   },
+  // 4. 43mm c cap
+  {
+    id: 'sv43c',
+    name: 'SV43C (43mm Crimp-On Spout Cap)',
+    image: '/images/product_spout_crimp_pullring.jpg',
+    categories: ['spout', 'oil-bottle', 'tamper-evident'],
+    material: 'HD/LDPE',
+    closureType: 'Pull out type Spout',
+    tamperEvidence: 'Tear-off membrane',
+    diameter: 'DIN 43 mm',
+    application: 'Crimp-on Closure on Metal Container',
+    specifications: [
+      'Market Category: Food',
+      'Market Segment: Edible oil, Food products, Chemical & Solvent Products',
+      'Metal crimp seal fitment'
+    ],
+  },
+  // 5. 57mm cap
   {
     id: 'sv57',
     name: 'SV57 (57mm Press-Fit Spout Cap)',
     image: '/images/product_sv57.png',
     categories: ['spout', 'jerry-can', 'tamper-evident'],
-    material: 'HDPE / LLDPE Virgin Polymer',
-    closureType: 'Press-Fit Retractable Spout',
-    tamperEvidence: 'Double Pull Ring + Snap Ring Lock',
-    diameter: '57 mm',
-    application: 'Jerry Cans, Medium Industrial Carboys',
-    specifications: ['Vented pouring channel', 'Corrosive resistance', 'Impact drop-tested'],
+    material: 'HD/LDPE',
+    closureType: 'Pull out type Spout',
+    tamperEvidence: 'Tear-off membrane',
+    diameter: 'DIN 57 mm',
+    application: 'Press-Fit on Metal Container',
+    specifications: [
+      'Market Category: Food - Industrial',
+      'Market Segment: Adhesive, Automotive & Lube oil, Paint, Chemical',
+      'Double pull ring seal structure'
+    ],
   },
+  // 6. 57mm c cap
+  {
+    id: 'sv57c',
+    name: 'SV57C (57mm Crimp-On Spout Cap)',
+    image: '/images/product_sv63c.png',
+    categories: ['spout', 'jerry-can', 'tamper-evident'],
+    material: 'HD/LDPE',
+    closureType: 'Pull out type Spout',
+    tamperEvidence: 'Tear-off membrane',
+    diameter: 'DIN 57 mm',
+    application: 'Crimp-on Closure on Metal Container',
+    specifications: [
+      'Market Category: Food',
+      'Market Segment: Edible oil, Food products, Chemical & Solvent Products',
+      'Metal crimp weatherproof seal'
+    ],
+  },
+  // 7. 67mm cap
+  {
+    id: 'sv67',
+    name: 'SV67 (67mm Press-Fit Spout Cap)',
+    image: '/images/product_sv63c.png',
+    categories: ['spout', 'food-grade', 'jerry-can', 'tamper-evident'],
+    material: 'HD/LDPE',
+    closureType: 'Pull out type Spout',
+    tamperEvidence: 'Tear-off membrane',
+    diameter: 'DIN 67 mm',
+    application: 'Insert Moulding on Plastic Bucket',
+    specifications: [
+      'Market Category: Food',
+      'Market Segment: Edible oil & Food products',
+      'High-durability design for bucket packaging'
+    ],
+  },
+  // 8. 42mm cap
   {
     id: 'sv-42-crimp',
     name: 'SV 42mm Crimp-On Spout Closure',
     image: '/images/product_spout_crimp_pullring.jpg',
     categories: ['spout', 'tamper-evident', 'oil-bottle'],
-    material: 'Metal Ring + Virgin Polypropylene / LLDPE',
-    closureType: 'Crimp-On Retractable Spout',
-    tamperEvidence: 'Crimped Tin Base + Inner Pull Ring',
-    diameter: '42 mm',
-    application: 'Engine Oils, Lubricants, Metal Drums/Containers',
-    specifications: ['Anti-counterfeiting crimp', 'Metal-plastic hybrid bond', 'High tear-strength pull ring'],
+    material: 'HD/LDPE',
+    closureType: 'Berg-type Spout',
+    tamperEvidence: 'Tear-off membrane',
+    diameter: 'DIN 42 mm',
+    application: 'Crimp-on Closure on Metal Container',
+    specifications: [
+      'Market Category: Food',
+      'Market Segment: Edible oil, Ghee, Olive oil, Food products, Etc.',
+      'Reliable Berg-style pouring control'
+    ],
+  },
+  // 9. 63mm cap
+  {
+    id: 'sv-63-crimp',
+    name: 'SV 63mm Crimp-On Closure',
+    image: '/images/crimp_closure.png',
+    categories: ['tamper-evident', 'oil-bottle', 'jerry-can'],
+    material: 'LDPE',
+    closureType: 'Pull out closure with metal/plastic cap',
+    tamperEvidence: 'Tear-off membrane',
+    diameter: 'DIN 63 mm',
+    application: 'Crimp-on Closure on Metal and Plastic Container',
+    specifications: [
+      'Market Category: Food',
+      'Market Segment: Ghee & Food products, Adhesive ind, Paint Ind, Chemical & Solvent products',
+      'Durable metal/plastic cap configuration'
+    ],
+  },
+  // 10. 24mm cap
+  {
+    id: 'sv-24-screw',
+    name: 'SV 24mm Rigid Screw Cap (High Neck)',
+    image: '/images/screw_cap.png',
+    categories: ['screw-cap', 'pharma', 'custom'],
+    material: 'HDPE',
+    closureType: 'Rigid-Screw (High Neck)',
+    tamperEvidence: 'Tear-off membrane',
+    diameter: 'DIN 24 mm',
+    application: 'Push-in/Press-fit on Metal Container',
+    specifications: [
+      'Market Category: Industrial',
+      'Market Segment: Motor oil / Automotive oil, Chemical products',
+      'High-neck rigid screw design'
+    ],
+  },
+  // 11. 57mm cap
+  {
+    id: 'sv-57-screw',
+    name: 'SV 57mm Rigid Jerrycan Cap',
+    image: '/images/screw_cap.png',
+    categories: ['screw-cap', 'jerry-can', 'tamper-evident'],
+    material: 'HDPE',
+    closureType: 'Rigid-Screw',
+    tamperEvidence: 'Tear-off membrane',
+    diameter: 'DIN 57 mm',
+    application: 'Push-in/Press-fit on Metal Container',
+    specifications: [
+      'Market Category: Industrial',
+      'Market Segment: Motor oil / Automotive oil, Chemical products',
+      'Heavy duty push-in / press-fit secure lock'
+    ],
+  },
+  // 12. 38mm screw cap
+  {
+    id: 'sv-38-screw',
+    name: 'SV 38mm Rigid Screw Cap',
+    image: '/images/screw_cap.png',
+    categories: ['screw-cap', 'jerry-can', 'custom'],
+    material: 'HDPE',
+    closureType: 'Rigid-Screw',
+    tamperEvidence: 'Tear-off membrane',
+    diameter: 'DIN 38 mm',
+    application: 'Push-in/Press-fit on Metal Container',
+    specifications: [
+      'Market Category: Industrial',
+      'Market Segment: Motor oil / Automotive oil, Chemical products',
+      'Rigid high-performance threads'
+    ],
+  },
+  // 13. 40mm pull out type lubricant cap
+  {
+    id: 'sv-40-pullup',
+    name: 'SV40 (40mm Plastic Pull-Up Spout Cap)',
+    image: '/images/product_sv40p.png',
+    categories: ['spout', 'tamper-evident', 'oil-bottle', 'jerry-can'],
+    material: 'High-Density Polyethylene (HDPE) / PP',
+    closureType: 'Threaded Pull-Up Retractable Spout',
+    tamperEvidence: 'Tear-off Top Pull Tab + Outer Cap Seal',
+    diameter: '40 mm',
+    application: 'Jerry Cans, Plastic Bottles, Automotive Oils, Agrochemicals',
+    specifications: ['Directional flow guide', 'Smooth pull-up extension', 'Resealable unscrew dust cap'],
+  },
+  // 14. 50mm pull out type lubricant cap
+  {
+    id: 'sv-50-pullup',
+    name: 'SV50 (50mm Pull-Out Spout Cap)',
+    image: '/images/product_spout_pullup.jpg',
+    categories: ['spout', 'jerry-can', 'tamper-evident'],
+    material: 'HD/LDPE',
+    closureType: 'Pull out type Spout',
+    tamperEvidence: 'Tear-off membrane',
+    diameter: 'DIN 50 mm',
+    application: 'Push-in/Press-fit on Metal Container',
+    specifications: [
+      'Market Category: Industrial',
+      'Market Segment: Motor oil / Automotive oil, Chemical products',
+      'Directional flow guide spout'
+    ],
+  },
+  // Remaining Products
+  {
+    id: 'sv42',
+    name: 'SV42 (42mm Press-Fit Spout Cap)',
+    image: '/images/product_sv42.png',
+    categories: ['spout', 'jerry-can', 'oil-bottle', 'tamper-evident'],
+    material: 'HD/LDPE',
+    closureType: 'Pull out type Spout',
+    tamperEvidence: 'Tear-off membrane',
+    diameter: 'DIN 42 mm',
+    application: 'Press-Fit on Metal Container',
+    specifications: [
+      'Market Category: Food - Industrial',
+      'Market Segment: Edible oil, Food products, Chemical & Solvent Products',
+      'Retractable spout with anti-glug flow'
+    ],
   },
   {
     id: 'sv-42-crimp-insert',
@@ -141,18 +300,6 @@ const productsData: Product[] = [
     specifications: ['Directional flow guide', 'Smooth pull-up extension', 'Resealable dust cap cover'],
   },
   {
-    id: 'sv-63-crimp',
-    name: 'SV 63mm Crimp-On Closure',
-    image: '/images/crimp_closure.png',
-    categories: ['tamper-evident', 'oil-bottle', 'jerry-can'],
-    material: 'Metal Ring + Virgin Polypropylene',
-    closureType: 'Crimp-On Fitment',
-    tamperEvidence: 'Metal Crimped Ring + Snap Lid',
-    diameter: '63 mm',
-    application: 'Industrial Oils, Grease Containers',
-    specifications: ['Heavy-duty sealing force', 'Weatherproof design', 'Puncture protection'],
-  },
-  {
     id: 'sv-63-crimp-spout',
     name: 'SV63C (63mm Crimp-On Spout Cap)',
     image: '/images/product_sv63c.png',
@@ -165,40 +312,20 @@ const productsData: Product[] = [
     specifications: ['Double-loop pull ring for high traction', 'Anti-counterfeiting crimp fitment', 'EPDM gasket for hermetic seal'],
   },
   {
-    id: 'sv-24-screw',
-    name: 'SV 24mm Rigid Screw Cap',
-    image: '/images/screw_cap.png',
-    categories: ['screw-cap', 'pharma', 'custom'],
-    material: 'Polypropylene (PP)',
-    closureType: 'Continuous Thread Screw Cap',
-    tamperEvidence: 'No (Lined/Unlined Available)',
-    diameter: '24 mm',
-    application: 'Cosmetics, Pharma Liquids, Solvents',
-    specifications: ['High ribbed grip', 'Custom torque matching', 'Wad liner options'],
-  },
-  {
-    id: 'sv-57-screw',
-    name: 'SV 57mm Rigid Jerrycan Cap',
-    image: '/images/screw_cap.png',
-    categories: ['screw-cap', 'jerry-can', 'tamper-evident'],
-    material: 'High-Density Polyethylene (HDPE)',
-    closureType: 'Internal Thread Screw Cap',
-    tamperEvidence: 'Outer Tear-Away Band',
-    diameter: '57 mm',
-    application: 'Chemical Jerrycans, Concentrates',
-    specifications: ['Integrated EPDM gasket', 'Deflection venting system', 'Child-resistant compatible'],
-  },
-  {
     id: 'sv-25-flip',
-    name: 'SV 25mm Dispensing Flip-Top Cap',
+    name: 'SV 25mm Flip-Top Cap',
     image: '/images/flip_top_cap.png',
     categories: ['flip-top', 'food-grade', 'pharma', 'custom'],
-    material: 'Polypropylene (PP)',
-    closureType: 'Hinged Flip-Top',
-    tamperEvidence: 'No (Pressure Induction Lined)',
-    diameter: '25 mm',
-    application: 'Sanitizers, Shampoos, Condiment Bottles',
-    specifications: ['Snap-close hinge', 'Zero-clog orifice', 'Spill-free travel locking'],
+    material: 'PP',
+    closureType: 'Rigid cap',
+    tamperEvidence: 'Pressure Induction Lined',
+    diameter: 'Diameter 25 mm',
+    application: 'Medical, Sanitizer & Cosmetic Products',
+    specifications: [
+      'Market Category: Medical, Sanitizer',
+      'Market Segment: Sanitizer & Cosmetic Products',
+      'Spill-free hinged travel cap'
+    ],
   },
   {
     id: 'sv-28-flip-bw',

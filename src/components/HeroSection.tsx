@@ -204,14 +204,14 @@ export default function HeroSection() {
               <div className="space-y-1">
                 <div className="flex items-center gap-1.5 justify-center lg:justify-start text-primary-blue font-bold text-2xl">
                   <Activity className="w-5 h-5 text-primary-green shrink-0" />
-                  <AnimatedCounter value="50+" />
+                  <AnimatedCounter value="25+" />
                 </div>
                 <p className="text-xs text-text-light dark:text-slate-400 font-medium">Product Lines</p>
               </div>
               <div className="space-y-1">
                 <div className="flex items-center gap-1.5 justify-center lg:justify-start text-primary-blue font-bold text-2xl">
                   <Globe2 className="w-5 h-5 text-primary-green shrink-0" />
-                  <AnimatedCounter value="20+" />
+                  <AnimatedCounter value="30+" />
                 </div>
                 <p className="text-xs text-text-light dark:text-slate-400 font-medium">Export Countries</p>
               </div>
@@ -231,7 +231,7 @@ export default function HeroSection() {
               initial={{ opacity: 0, scale: 0.95 }}
               animate={{ opacity: 1, scale: 1 }}
               transition={{ duration: 0.8, delay: 0.2 }}
-              className="relative w-full max-w-[480px] lg:max-w-[560px] aspect-[5/4] flex items-center justify-center select-none"
+              className="relative w-full max-w-[360px] sm:max-w-[420px] lg:max-w-[460px] aspect-[2/3] flex items-center justify-center select-none"
             >
               {/* Subtle background glow under the closures */}
               <div className="absolute inset-0 bg-gradient-to-tr from-primary-blue/15 via-primary-green/8 to-transparent rounded-full blur-[90px] -z-10" />
@@ -250,10 +250,10 @@ export default function HeroSection() {
                 className="w-full h-full flex items-center justify-center"
               >
                 <Image
-                  src="/images/flip_top_closures_hero.png"
-                  alt="Premium Plastic Flip-Top Closures"
-                  width={600}
-                  height={480}
+                  src="/images/flip_top_closures_hero_v4.png"
+                  alt="Premium Container & Spout Closure System"
+                  width={460}
+                  height={690}
                   priority
                   className="w-full h-full object-contain filter drop-shadow-[0_25px_45px_rgba(0,0,0,0.16)] drop-shadow-[0_10px_20px_rgba(0,0,0,0.1)]"
                 />
