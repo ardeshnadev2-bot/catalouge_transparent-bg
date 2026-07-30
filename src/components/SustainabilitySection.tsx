@@ -101,10 +101,10 @@ export default function SustainabilitySection() {
             </div>
           </div>
 
-          <div className="lg:col-span-6 relative flex items-center justify-center w-full min-h-[350px] lg:min-h-[440px]">
-            <div className="relative aspect-[3/2] w-full max-w-[600px]">
+          <div className="lg:col-span-6 relative flex items-center justify-center w-full min-h-[380px] lg:min-h-[480px]">
+            <div className="relative aspect-[3/2] w-full max-w-full lg:max-w-[680px]">
               <Image
-                src="/images/sustainability_v2.png"
+                src="/images/sustainability_v3.png"
                 alt="SV Closures Sustainable Design"
                 fill
                 className="object-contain"
