@@ -147,7 +147,7 @@ const productsData: Product[] = [
   {
     id: 'sv-42-crimp',
     name: 'SV 42mm Crimp-On Spout Closure',
-    image: '/images/product_spout_crimp_pullring.jpg',
+    image: '/images/product_sv42_crimp_transparent.png',
     categories: ['spout', 'tamper-evident', 'oil-bottle'],
     material: 'HD/LDPE',
     closureType: 'Berg-type Spout',

@@ -2,7 +2,6 @@
 
 import { Leaf, Award, Recycle, Sun } from 'lucide-react';
 import { useEffect, useState } from 'react';
-import Image from 'next/image';
 
 // Drifting leaf animations (CSS based for maximum performance)
 function FallingLeaves() {
@@ -85,7 +84,7 @@ export default function SustainabilitySection() {
         
         {/* Row 1: Content Overlay */}
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center mb-16">
-          <div className="lg:col-span-6 space-y-6">
+          <div className="lg:col-span-7 space-y-6">
             <div className="inline-flex items-center gap-2 text-emerald-600 dark:text-emerald-400 font-bold text-sm tracking-wider uppercase">
               <Leaf className="w-5 h-5 text-primary-green animate-bounce" />
               Eco-Friendly Manufacturing
@@ -101,14 +100,20 @@ export default function SustainabilitySection() {
             </div>
           </div>
 
-          <div className="lg:col-span-6 relative flex items-center justify-center w-full min-h-[380px] lg:min-h-[480px]">
-            <div className="relative aspect-[3/2] w-full max-w-full lg:max-w-[680px]">
-              <Image
-                src="/images/sustainability_v3.png"
-                alt="SV Closures Sustainable Design"
-                fill
-                className="object-contain"
-              />
+          <div className="lg:col-span-5 relative flex items-center justify-center">
+            {/* Round Green Badge Mockup */}
+            <div className="w-64 h-64 sm:w-80 sm:h-80 rounded-full bg-gradient-to-tr from-emerald-500/10 to-teal-500/10 dark:from-emerald-950/20 dark:to-teal-950/20 border-2 border-dashed border-emerald-500/30 flex items-center justify-center p-8 relative animate-spin-slow">
+              {/* Internal ring */}
+              <div className="w-full h-full rounded-full border border-emerald-500/20 flex flex-col items-center justify-center text-center p-4 bg-white/40 dark:bg-slate-900/30 backdrop-blur-md">
+                <Recycle className="w-12 h-12 text-primary-green mb-3" />
+                <span className="text-lg font-extrabold text-text-dark dark:text-white uppercase tracking-wider leading-none">100% Recyclable</span>
+                <span className="text-[10px] text-text-light dark:text-slate-400 mt-1">Virgin PP & HDPE Polymers Only</span>
+              </div>
+            </div>
+            {/* Absolute element overlays */}
+            <div className="absolute top-8 left-16 bg-white dark:bg-slate-900 border border-emerald-100 dark:border-emerald-900/50 shadow-md rounded-2xl p-4 text-center">
+              <span className="block text-2xl font-black text-primary-green">35%</span>
+              <span className="text-[10px] uppercase font-bold text-text-dark dark:text-slate-300">Energy Saved</span>
             </div>
           </div>
         </div>
