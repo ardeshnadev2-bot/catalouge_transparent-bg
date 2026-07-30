@@ -158,7 +158,7 @@ export function Navbar() {
             <a href="#home" onClick={(e) => handleLinkClick(e, '#home')} className="relative flex items-center">
               <div className="relative h-12 w-32 transition-transform duration-300 hover:scale-105">
                 <Image
-                  src="/images/logo_v2.png"
+                  src="/images/logo.png"
                   alt="SV Closures Logo"
                   fill
                   className="object-contain dark:drop-shadow-[0_0_2px_rgba(255,255,255,0.85)]"

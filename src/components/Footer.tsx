@@ -46,7 +46,7 @@ export function Footer() {
           <div className="space-y-6">
             <div className="inline-block transition-transform duration-300 hover:scale-105">
               <Image
-                src="/images/logo_v2.png"
+                src="/images/logo.png"
                 alt="SV Closures Logo"
                 width={120}
                 height={45}
