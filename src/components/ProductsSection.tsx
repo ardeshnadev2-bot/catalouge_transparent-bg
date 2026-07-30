@@ -235,22 +235,7 @@ const productsData: Product[] = [
     application: 'Industrial Jerrycans, Chemical Drums, Lubricants',
     specifications: ['Double-loop pull ring for high traction', 'Anti-counterfeiting crimp fitment', 'EPDM gasket for hermetic seal'],
   },
-  {
-    id: 'sv-25-flip',
-    name: 'SV 25mm Flip-Top Cap',
-    image: '/images/flip_top_cap.png',
-    categories: ['flip-top', 'food-grade', 'pharma', 'custom'],
-    material: 'PP',
-    closureType: 'Rigid cap',
-    tamperEvidence: 'Pressure Induction Lined',
-    diameter: 'Diameter 25 mm',
-    application: 'Medical, Sanitizer & Cosmetic Products',
-    specifications: [
-      'Market Category: Medical, Sanitizer',
-      'Market Segment: Sanitizer & Cosmetic Products',
-      'Spill-free hinged travel cap'
-    ],
-  },
+
   {
     id: 'sv-24-flip-wb',
     name: 'SV 24mm Flip-Top Cap (Smooth Finish)',
