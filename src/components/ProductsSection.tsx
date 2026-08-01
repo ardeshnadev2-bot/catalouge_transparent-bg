@@ -219,8 +219,8 @@ const productsData: Product[] = [
   // Remaining Products
   {
     id: 'sv42',
-    name: 'SV42 (42mm Berg-Type Spout Cap)',
-    image: '/images/product_sv42.png',
+    name: 'SV42 (42mm Crimp-On Spout Cap)',
+    image: '/images/product_sv42_crimp_transparent.png',
     categories: ['spout', 'jerry-can', 'oil-bottle', 'tamper-evident'],
     material: 'HD/LDPE',
     closureType: 'Berg-type Spout',
@@ -230,7 +230,7 @@ const productsData: Product[] = [
     specifications: [
       'Market Category: Food',
       'Market Segment: Edible oil, Ghee, Olive oil, Food products, Etc.',
-      'Container Type: Metal Container'
+      'Retractable spout with anti-glug flow'
     ],
   },
   {
