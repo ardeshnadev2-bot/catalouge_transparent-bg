@@ -266,6 +266,22 @@ const productsData: Product[] = [
     ],
   },
   {
+    id: 'sv-57-screw-cap',
+    name: 'SV 57mm Rigid-Screw Cap',
+    image: '/images/product_sv57_screw_transparent.png',
+    categories: ['screw-cap', 'tamper-evident', 'jerry-can'],
+    material: 'HDPE',
+    closureType: 'Rigid-Screw',
+    tamperEvidence: 'Tear-off membrane',
+    diameter: 'DIN 57 mm',
+    application: 'Push-in/Press-fit on Metal Container',
+    specifications: [
+      'Market Category: Industrial',
+      'Market Segment: Motor oil / Automotive oil, Chemical products',
+      'Heavy-duty industrial sealing'
+    ],
+  },
+  {
     id: 'sv-custom',
     name: 'Bespoke Brand Closure Mold',
     image: '/images/logo.png',
