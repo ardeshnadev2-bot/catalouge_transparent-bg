@@ -190,7 +190,7 @@ const productsData: Product[] = [
   {
     id: 'sv-50-pullup',
     name: 'SV50 (50mm Pull-Out Spout Cap)',
-    image: '/images/product_spout_pullup.jpg',
+    image: '/images/product_sv50_transparent.png',
     categories: ['spout', 'jerry-can', 'tamper-evident'],
     material: 'HD/LDPE',
     closureType: 'Pull out type Spout',
@@ -452,8 +452,6 @@ export default function ProductsSection() {
                         className={`transition-all duration-300 ${
                           prod.image === '/images/logo.png' 
                             ? 'object-contain p-8 dark:drop-shadow-[0_0_2px_rgba(255,255,255,0.85)]' 
-                            : prod.id === 'sv-63-crimp-spout'
-                            ? 'object-contain p-4'
                             : 'object-cover'
                         }`}
                         sizes="(max-width: 768px) 100vw, 33vw"
