@@ -452,6 +452,8 @@ export default function ProductsSection() {
                         className={`transition-all duration-300 ${
                           prod.image === '/images/logo.png' 
                             ? 'object-contain p-8 dark:drop-shadow-[0_0_2px_rgba(255,255,255,0.85)]' 
+                            : prod.id === 'sv-63-crimp-spout'
+                            ? 'object-contain p-4'
                             : 'object-cover'
                         }`}
                         sizes="(max-width: 768px) 100vw, 33vw"
