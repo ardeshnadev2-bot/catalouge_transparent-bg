@@ -234,16 +234,20 @@ const productsData: Product[] = [
     ],
   },
   {
-    id: 'sv-24-flip-wb',
-    name: 'SV 24mm Flip-Top Cap (Smooth Finish)',
+    id: 'sv-25-flip-wb',
+    name: 'SV 25mm Flip-top Cap (Smooth Finish)',
     image: '/images/product_fliptop_wb.jpg',
-    categories: ['flip-top', 'food-grade', 'pharma'],
-    material: 'Polypropylene (PP) Virgin Resins',
-    closureType: 'Hinged Flip-Top Cap',
+    categories: ['flip-top', 'sanitizer', 'pharma'],
+    material: 'PP',
+    closureType: 'Rigid cap',
     tamperEvidence: 'No (Pressure Sensitive or Induction Liner available)',
-    diameter: '24 mm',
-    application: 'Personal Care, Essential Oils, Shampoos, Pharma Creams',
-    specifications: ['Ergonomic thumb tab', 'Precise dispensing control', 'Aesthetic gloss finish'],
+    diameter: '25 mm',
+    application: 'Sanitizer & Cosmetic Products',
+    specifications: [
+      'Market Category: Medical, Sanitizer',
+      'Market Segment: Sanitizer & Cosmetic Products',
+      'Precise dispensing control'
+    ],
   },
   {
     id: 'sv-custom',
