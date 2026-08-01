@@ -76,6 +76,41 @@ const exportDestinations: ExportCountry[] = [
     keyProduct: 'Spout & Flip-Top Caps',
     transport: 'Sea Container (New York / LA)',
   },
+  {
+    name: 'Australia (Melbourne)',
+    coords: { x: 695, y: 315 },
+    shippingDays: '18-22 Days',
+    keyProduct: 'Tamper Evident Closures',
+    transport: 'Sea Container (Melbourne)',
+  },
+  {
+    name: 'South Africa (Durban)',
+    coords: { x: 435, y: 290 },
+    shippingDays: '20-24 Days',
+    keyProduct: 'Spout Closures',
+    transport: 'Sea Container (Durban)',
+  },
+  {
+    name: 'UAE (Dubai)',
+    coords: { x: 485, y: 162 },
+    shippingDays: '5-7 Days',
+    keyProduct: 'Rigid-Screw Caps',
+    transport: 'Sea Container (Jebel Ali)',
+  },
+  {
+    name: 'England (London)',
+    coords: { x: 365, y: 78 },
+    shippingDays: '15-18 Days',
+    keyProduct: 'Screw Caps',
+    transport: 'Sea Container (London Gateway)',
+  },
+  {
+    name: 'Japan (Yokohama)',
+    coords: { x: 675, y: 125 },
+    shippingDays: '12-14 Days',
+    keyProduct: 'Flip-Top Closures',
+    transport: 'Sea Container (Yokohama)',
+  },
 ];
 
 const exportPhotos = [
