@@ -219,18 +219,18 @@ const productsData: Product[] = [
   // Remaining Products
   {
     id: 'sv42',
-    name: 'SV42 (42mm Press-Fit Spout Cap)',
+    name: 'SV42 (42mm Berg-Type Spout Cap)',
     image: '/images/product_sv42.png',
     categories: ['spout', 'jerry-can', 'oil-bottle', 'tamper-evident'],
     material: 'HD/LDPE',
-    closureType: 'Pull out type Spout',
+    closureType: 'Berg-type Spout',
     tamperEvidence: 'Tear-off membrane',
     diameter: 'DIN 42 mm',
-    application: 'Press-Fit on Metal Container',
+    application: 'Crimp-on Closure on Metal Container',
     specifications: [
-      'Market Category: Food - Industrial',
-      'Market Segment: Edible oil, Food products, Chemical & Solvent Products',
-      'Retractable spout with anti-glug flow'
+      'Market Category: Food',
+      'Market Segment: Edible oil, Ghee, Olive oil, Food products, Etc.',
+      'Container Type: Metal Container'
     ],
   },
   {
