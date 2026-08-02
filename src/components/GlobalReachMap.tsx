@@ -2,7 +2,7 @@
 
 import { useState } from 'react';
 import { motion } from 'framer-motion';
-import { Globe2, Navigation, Ship, Anchor } from 'lucide-react';
+import { Globe2, Navigation, Ship, Anchor, Plane } from 'lucide-react';
 
 interface ExportCountry {
   name: string;
@@ -367,10 +367,15 @@ export default function GlobalReachMap() {
                   </div>
                 </div>
                 <div className="md:col-span-1 flex items-center gap-2">
-                  <Anchor className="w-5 h-5 text-primary-blue shrink-0" />
+                  <div className="flex flex-col shrink-0 gap-0.5">
+                    <Anchor className="w-4 h-4 text-primary-blue" />
+                    {hoveredCountry.name !== 'India' && <Plane className="w-4 h-4 text-primary-green animate-pulse" />}
+                  </div>
                   <div>
                     <span className="block text-slate-500 dark:text-slate-500 text-[10px] font-bold uppercase tracking-wider">Shipping Method</span>
-                    <span className="text-xs font-semibold text-slate-700 dark:text-slate-200">{hoveredCountry.transport}</span>
+                    <span className="text-xs font-semibold text-slate-700 dark:text-slate-200">
+                      {hoveredCountry.name === 'India' ? hoveredCountry.transport : `${hoveredCountry.transport} & Air Freight`}
+                    </span>
                   </div>
                 </div>
               </>
