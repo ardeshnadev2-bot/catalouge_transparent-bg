@@ -147,7 +147,7 @@ const productsData: Product[] = [
   {
     id: 'sv-63-crimp-spout',
     name: 'SV63 (63mm Crimp-On Spout Cap)',
-    image: '/images/product_sv63c.png',
+    image: '/images/product_sv63c.jpg',
     categories: ['spout', 'tamper-evident', 'oil-bottle', 'jerry-can'],
     material: 'Metal Ring + Virgin Polypropylene / LLDPE',
     closureType: 'Crimp-On Retractable Spout',
@@ -177,7 +177,7 @@ const productsData: Product[] = [
   {
     id: 'sv-40-pullup',
     name: 'SV40 (40mm Plastic Pull-Up Spout Cap)',
-    image: '/images/product_sv40p.png',
+    image: '/images/product_sv40p_new.png',
     categories: ['spout', 'tamper-evident', 'oil-bottle', 'jerry-can'],
     material: 'High-Density Polyethylene (HDPE) / PP',
     closureType: 'Threaded Pull-Up Retractable Spout',
@@ -190,7 +190,7 @@ const productsData: Product[] = [
   {
     id: 'sv-50-pullup',
     name: 'SV50 (50mm Pull-Out Spout Cap)',
-    image: '/images/product_sv50_transparent.png',
+    image: '/images/product_sv50_new.png',
     categories: ['spout', 'jerry-can', 'tamper-evident'],
     material: 'HD/LDPE',
     closureType: 'Pull out type Spout',
@@ -220,7 +220,7 @@ const productsData: Product[] = [
   {
     id: 'sv42',
     name: 'SV42 (42mm Crimp-On Spout Cap)',
-    image: '/images/product_sv42_crimp_transparent.png',
+    image: '/images/product_sv42_crimp.jpg',
     categories: ['spout', 'jerry-can', 'oil-bottle', 'tamper-evident'],
     material: 'HD/LDPE',
     closureType: 'Berg-type Spout',
@@ -252,7 +252,7 @@ const productsData: Product[] = [
   {
     id: 'sv-24-screw-cap',
     name: 'SV 24mm Rigid-Screw Cap',
-    image: '/images/product_sv24_screw_transparent.png',
+    image: '/images/product_sv24_screw.jpg',
     categories: ['screw-cap', 'tamper-evident', 'jerry-can'],
     material: 'HDPE',
     closureType: 'Rigid-Screw (High Neck)',
