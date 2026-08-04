@@ -337,7 +337,7 @@ export default function InfrastructureSection() {
                     src="/images/testing_vacuum_v2.jpg"
                     alt="Pressure and Vacuum Leak Testing"
                     fill
-                    className="object-cover group-hover:scale-105 transition-transform duration-500"
+                    className="object-contain bg-slate-50 dark:bg-slate-950/40 group-hover:scale-105 transition-transform duration-500"
                   />
                 </div>
                 <div className="p-6 space-y-2 bg-transparent flex-grow">
@@ -364,7 +364,7 @@ export default function InfrastructureSection() {
                     src="/images/testing_torque_v2.jpg"
                     alt="Torque Release Testing"
                     fill
-                    className="object-cover group-hover:scale-105 transition-transform duration-500"
+                    className="object-contain bg-slate-50 dark:bg-slate-950/40 group-hover:scale-105 transition-transform duration-500"
                   />
                 </div>
                 <div className="p-6 space-y-2 bg-transparent flex-grow">
