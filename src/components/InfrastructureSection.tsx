@@ -271,7 +271,7 @@ export default function InfrastructureSection() {
             <div className="relative aspect-[4/3] rounded-3xl overflow-hidden glass-card p-1">
               <div className="relative w-full h-full rounded-2xl overflow-hidden">
                 <Image
-                  src="/images/packaging_solutions.png"
+                  src="/images/packaging_solutions_v2.jpg"
                   alt="Packaging containers and jerry cans"
                   fill
                   className="object-cover group-hover:scale-105 transition-transform duration-700 ease-out"
