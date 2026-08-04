@@ -10,7 +10,10 @@ import {
   Phone, 
   Mail, 
   MapPin, 
-  MessageCircle 
+  MessageCircle,
+  Instagram,
+  Linkedin,
+  Facebook
 } from 'lucide-react';
 
 interface Message {
@@ -354,16 +357,46 @@ export function Chatbot() {
             </form>
 
             {/* Footer */}
-            <div className="bg-slate-950/95 py-2.5 px-4 border-t border-slate-900 flex items-center justify-center">
+            <div className="bg-slate-950/95 py-3 px-4 border-t border-slate-900 flex flex-col items-center justify-center space-y-3">
               <a
                 href="https://wa.me/919909216358"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="flex items-center space-x-2 text-xs text-emerald-400 hover:text-emerald-300 font-medium transition-colors duration-200"
+                className="w-full flex items-center justify-center space-x-2 text-xs bg-emerald-500/10 hover:bg-emerald-500/20 text-emerald-400 hover:text-emerald-300 font-medium py-2 px-4 rounded-xl border border-emerald-500/20 transition-all duration-200"
               >
                 <MessageCircle className="w-4 h-4 fill-current text-emerald-400" />
                 <span>Chat directly on WhatsApp</span>
               </a>
+              <div className="flex items-center space-x-3 w-full justify-center pt-1 border-t border-slate-900/60">
+                <span className="text-[10px] text-slate-500 font-medium mr-1">Follow us:</span>
+                <a
+                  href="https://www.instagram.com/sv_closures_pvt_ltd?igsh=Y21ubzB6ajBoYjFq"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="p-1.5 rounded-lg bg-slate-900 border border-slate-800 text-slate-400 hover:text-pink-500 hover:bg-slate-850 hover:border-pink-500/30 transition-all duration-200"
+                  aria-label="Instagram"
+                >
+                  <Instagram className="w-3.5 h-3.5" />
+                </a>
+                <a
+                  href="https://www.linkedin.com/company/sv-closures-private-limited/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="p-1.5 rounded-lg bg-slate-900 border border-slate-800 text-slate-400 hover:text-blue-500 hover:bg-slate-850 hover:border-blue-500/30 transition-all duration-200"
+                  aria-label="LinkedIn"
+                >
+                  <Linkedin className="w-3.5 h-3.5" />
+                </a>
+                <a
+                  href="https://www.facebook.com/share/1cmyxXExss/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="p-1.5 rounded-lg bg-slate-900 border border-slate-800 text-slate-400 hover:text-blue-600 hover:bg-slate-850 hover:border-blue-600/30 transition-all duration-200"
+                  aria-label="Facebook"
+                >
+                  <Facebook className="w-3.5 h-3.5" />
+                </a>
+              </div>
             </div>
           </motion.div>
         )}
