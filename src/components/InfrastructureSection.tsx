@@ -43,12 +43,7 @@ const carouselImages = [
     title: 'Precision & Efficiency in Every Production Run',
     description: 'Our state-of-the-art manufacturing facility ensures seamless mass production with high-speed automation and quality control at every stage. From concept to large-scale manufacturing, we deliver customized plastic components with consistency, efficiency, and industry-leading standards.',
   },
-  {
-    src: '/images/factory_automation.png',
-    alt: 'Automated Assembly and Defect Sorting',
-    title: 'High-Speed Automated Assembly Lines',
-    description: 'Equipped with machine-vision sensors and automated cap lining machinery, our systems process up to 600 components per minute with zero human error, ensuring consistent thread calibration.',
-  },
+
   {
     src: '/images/factory_pallet.png',
     alt: 'Clean Packaging Palletizing operations',
