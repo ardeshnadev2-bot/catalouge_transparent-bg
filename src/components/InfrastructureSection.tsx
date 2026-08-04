@@ -307,7 +307,7 @@ export default function InfrastructureSection() {
               <div className="bg-white/90 dark:bg-slate-900/90 rounded-[23px] overflow-hidden flex flex-col h-full">
                 <div className="relative aspect-[4/3] w-full overflow-hidden">
                   <Image
-                    src="/images/testing_chemical.png"
+                    src="/images/testing_chemical_v2.jpg"
                     alt="Chemical Compatibility Testing"
                     fill
                     className="object-cover group-hover:scale-105 transition-transform duration-500"
