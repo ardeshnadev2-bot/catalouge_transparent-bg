@@ -104,7 +104,7 @@ export default function InfrastructureSection() {
         <div className="relative rounded-3xl overflow-hidden glass-card shadow-xl border border-slate-200/10">
           <div className="relative w-full aspect-[21/9] md:aspect-[21/6]">
             <Image
-              src="/images/infrastructure_banner.png"
+              src="/images/infrastructure_banner_v2.jpg"
               alt="Tailored Mold Development"
               fill
               className="object-cover"
