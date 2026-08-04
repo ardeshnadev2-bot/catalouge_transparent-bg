@@ -105,7 +105,7 @@ export default function SustainabilitySection() {
             {/* Decorative colored glow backdrop */}
             <div className="absolute -inset-1.5 bg-gradient-to-tr from-emerald-500/30 to-teal-500/30 rounded-2xl blur opacity-30 group-hover:opacity-50 transition duration-500" />
             
-            <div className="relative overflow-hidden rounded-2xl border border-emerald-500/20 dark:border-emerald-500/10 bg-white/80 dark:bg-slate-900/60 backdrop-blur-md shadow-2xl transform transition-all duration-500 hover:scale-[1.02]">
+            <div className="relative overflow-hidden rounded-2xl shadow-2xl transform transition-all duration-500 hover:scale-[1.02]">
               <div className="relative w-full aspect-[16/10] lg:aspect-[4/3] xl:aspect-[16/10]">
                 <Image
                   src="/images/sustainability_factory_v2.jpg"
