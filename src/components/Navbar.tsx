@@ -11,7 +11,7 @@ const navLinks = [
   { name: 'About', href: '#about' },
   { name: 'Products', href: '#products' },
   { name: 'Industries', href: '#industries' },
-  { name: 'Infrastructure', href: '#infrastructure' },
+  { name: 'Development', href: '#infrastructure' },
   { name: 'Sustainability', href: '#sustainability' },
   { name: 'Global Reach', href: '#global-reach' },
   { name: 'Gallery', href: '#gallery' },

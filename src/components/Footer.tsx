@@ -11,7 +11,7 @@ const quickLinks = [
 ];
 
 const secondaryLinks = [
-  { name: 'Infrastructure', href: '#infrastructure' },
+  { name: 'Development', href: '#infrastructure' },
   { name: 'Sustainability', href: '#sustainability' },
   { name: 'Global Presence', href: '#global-reach' },
   { name: 'Media Gallery', href: '#gallery' },
