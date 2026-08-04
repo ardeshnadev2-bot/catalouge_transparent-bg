@@ -108,7 +108,7 @@ export default function SustainabilitySection() {
             <div className="relative overflow-hidden rounded-2xl border border-emerald-500/20 dark:border-emerald-500/10 bg-white/80 dark:bg-slate-900/60 backdrop-blur-md shadow-2xl transform transition-all duration-500 hover:scale-[1.02]">
               <div className="relative w-full aspect-[16/10] lg:aspect-[4/3] xl:aspect-[16/10]">
                 <Image
-                  src="/images/sustainability_factory.png"
+                  src="/images/sustainability_factory_v2.jpg"
                   alt="SV Closures Sustainable Factory Operations"
                   fill
                   className="object-cover transition-transform duration-700 group-hover:scale-105"
