@@ -407,27 +407,69 @@ export function Chatbot() {
         )}
       </AnimatePresence>
 
-      {/* Floating Toggle Button */}
-      <motion.button
-        onClick={handleToggle}
-        whileHover={{ scale: 1.08 }}
-        whileTap={{ scale: 0.95 }}
-        className={`w-14 h-14 rounded-full flex items-center justify-center shadow-lg transition-all duration-300 ${
-          isOpen 
-            ? 'bg-slate-800 text-white border border-slate-700 shadow-slate-900/50' 
-            : 'bg-emerald-600 text-white shadow-emerald-600/30'
-        }`}
-        aria-label={isOpen ? "Close Assistant" : "Open Assistant"}
-      >
-        {isOpen ? (
-          <X className="w-6 h-6" />
-        ) : (
-          <div className="relative">
-            <MessageSquare className="w-6 h-6" />
-            <span className="absolute -top-1 -right-1 w-2.5 h-2.5 bg-emerald-400 rounded-full border-2 border-emerald-650 animate-pulse" />
-          </div>
-        )}
-      </motion.button>
+      {/* Row containing Chatbot Toggle Button and Social Buttons */}
+      <div className="flex items-center space-x-3 mt-3">
+        {/* Floating Toggle Button */}
+        <motion.button
+          onClick={handleToggle}
+          whileHover={{ scale: 1.08 }}
+          whileTap={{ scale: 0.95 }}
+          className={`w-14 h-14 rounded-full flex items-center justify-center shadow-lg transition-all duration-300 ${
+            isOpen 
+              ? 'bg-slate-800 text-white border border-slate-700 shadow-slate-900/50' 
+              : 'bg-emerald-600 text-white shadow-emerald-600/30'
+          }`}
+          aria-label={isOpen ? "Close Assistant" : "Open Assistant"}
+        >
+          {isOpen ? (
+            <X className="w-6 h-6" />
+          ) : (
+            <div className="relative">
+              <MessageSquare className="w-6 h-6" />
+              <span className="absolute -top-1 -right-1 w-2.5 h-2.5 bg-emerald-400 rounded-full border-2 border-emerald-650 animate-pulse" />
+            </div>
+          )}
+        </motion.button>
+
+        {/* Floating Social Media Buttons */}
+        <div className="flex items-center space-x-2">
+          <a
+            href="https://www.instagram.com/sv_closures_pvt_ltd?igsh=Y21ubzB6ajBoYjFq"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="w-10 h-10 rounded-full bg-slate-950 border border-slate-850 hover:border-pink-500/30 text-slate-400 hover:text-pink-500 shadow-lg flex items-center justify-center transition-all duration-350 hover:scale-110 active:scale-95"
+            aria-label="Instagram"
+          >
+            <svg className="w-5 h-5 fill-none stroke-current stroke-2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <rect x="2" y="2" width="20" height="20" rx="5" ry="5"/>
+              <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>
+              <line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/>
+            </svg>
+          </a>
+          <a
+            href="https://www.linkedin.com/company/sv-closures-private-limited/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="w-10 h-10 rounded-full bg-slate-950 border border-slate-850 hover:border-blue-500/30 text-slate-400 hover:text-blue-500 shadow-lg flex items-center justify-center transition-all duration-350 hover:scale-110 active:scale-95"
+            aria-label="LinkedIn"
+          >
+            <svg className="w-4 h-4 fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0z"/>
+            </svg>
+          </a>
+          <a
+            href="https://www.facebook.com/share/1cmyxXExss/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="w-10 h-10 rounded-full bg-slate-950 border border-slate-850 hover:border-blue-600/30 text-slate-400 hover:text-blue-600 shadow-lg flex items-center justify-center transition-all duration-350 hover:scale-110 active:scale-95"
+            aria-label="Facebook"
+          >
+            <svg className="w-4 h-4 fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+              <path d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z"/>
+            </svg>
+          </a>
+        </div>
+      </div>
     </div>
   );
 }
