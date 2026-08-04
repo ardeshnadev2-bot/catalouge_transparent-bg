@@ -141,7 +141,7 @@ export default function IndustriesSection() {
               src="/images/industries_banner_v3.jpg"
               alt="Tailored Closure Solutions"
               fill
-              className="object-cover"
+              className="object-cover blur-[2px] scale-[1.02]"
               priority
             />
           </div>
