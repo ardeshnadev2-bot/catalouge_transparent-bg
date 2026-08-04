@@ -238,9 +238,6 @@ export default function IndustriesSection() {
                   priority
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-slate-950/60 via-slate-950/20 to-transparent" />
-                <div className="relative z-10 p-4 rounded-2xl bg-white/90 dark:bg-slate-900/90 border border-slate-200/60 dark:border-slate-800/80 shadow-md group-hover:scale-105 transition-transform duration-500">
-                  <Fingerprint className="w-10 h-10 text-primary-blue" />
-                </div>
                 <div className="absolute bottom-6 left-6 text-white z-10">
                   <span className="px-2.5 py-1 rounded-md bg-primary-blue/90 text-[10px] font-bold tracking-wider uppercase backdrop-blur-sm">
                     Ergonomic Flow
@@ -276,9 +273,6 @@ export default function IndustriesSection() {
                   priority
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-slate-950/60 via-slate-950/20 to-transparent" />
-                <div className="relative z-10 p-4 rounded-2xl bg-white/90 dark:bg-slate-900/90 border border-slate-200/60 dark:border-slate-800/80 shadow-md group-hover:scale-105 transition-transform duration-500">
-                  <Droplet className="w-10 h-10 text-primary-green" />
-                </div>
                 <div className="absolute bottom-6 left-6 text-white z-10">
                   <span className="px-2.5 py-1 rounded-md bg-primary-green/90 text-[10px] font-bold tracking-wider uppercase backdrop-blur-sm">
                     Anti-Spill Tech
