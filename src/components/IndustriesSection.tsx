@@ -367,7 +367,7 @@ export default function IndustriesSection() {
               <div className="glass-card rounded-2xl overflow-hidden border border-slate-200/40 dark:border-slate-800/80 bg-white/70 dark:bg-slate-900/60 shadow-md hover:shadow-xl transition-all duration-300 flex flex-col group">
                 <div className="relative aspect-[4/3] w-full overflow-hidden bg-slate-900">
                   <Image
-                    src="/images/gallery_crane_molding.jpg"
+                    src="/images/gallery_crane_molding_v2.jpg"
                     alt="Overhead Crane & Injection Press"
                     fill
                     className="object-cover transition-transform duration-500 group-hover:scale-105"
