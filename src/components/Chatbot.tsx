@@ -309,7 +309,7 @@ export function Chatbot() {
               )}
 
               {/* Quick Reply Options */}
-              {!isTyping && messages[messages.length - 1]?.sender === 'bot' && (
+              {!isTyping && (
                 <div className="pt-2 flex flex-wrap gap-2">
                   {quickReplies.map((reply, i) => (
                     <button
