@@ -163,7 +163,7 @@ export default function IndustriesSection() {
           {/* Right Side: Closures Photo */}
           <div className="w-[61%] h-full relative overflow-hidden bg-white">
             <Image
-              src="/images/industries_banner_right.png"
+              src="/images/industries_banner_right_v2.png"
               alt="Tailored Closures Presentation"
               fill
               className="object-cover"
