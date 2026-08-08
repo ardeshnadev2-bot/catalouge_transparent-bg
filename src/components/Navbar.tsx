@@ -154,7 +154,7 @@ export function Navbar() {
           {/* Logo */}
           <div className="flex-shrink-0 relative group">
             <a href="#home" onClick={(e) => handleLinkClick(e, '#home')} className="relative flex items-center">
-              <div className="relative h-12 w-32 transition-transform duration-300 hover:scale-105">
+              <div className="relative h-14 w-36 transition-transform duration-300 hover:scale-105">
                 <Image
                   src="/images/logo.png"
                   alt="SV Closures Logo"
