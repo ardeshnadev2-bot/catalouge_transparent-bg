@@ -153,8 +153,6 @@ export function Navbar() {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <div className="flex-shrink-0 relative group">
-            {/* Soft background glow */}
-            <div className="absolute -inset-1.5 bg-gradient-to-r from-primary-blue to-primary-green rounded-xl blur opacity-30 group-hover:opacity-60 transition duration-500" />
             <a href="#home" onClick={(e) => handleLinkClick(e, '#home')} className="relative flex items-center">
               <div className="relative h-12 w-32 transition-transform duration-300 hover:scale-105">
                 <Image

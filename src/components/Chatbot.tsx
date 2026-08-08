@@ -370,7 +370,7 @@ export function Chatbot() {
                   href="https://www.instagram.com/sv_closures_pvt_ltd?igsh=Y21ubzB6ajBoYjFq"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="p-1.5 rounded-lg bg-gradient-to-tr from-[#f9ce34] via-[#ee2a7b] to-[#6228d7] text-white hover:scale-105 transition-all duration-200"
+                  className="p-1.5 rounded-lg bg-transparent text-[#ee2a7b] hover:text-[#d62470] hover:scale-110 transition-all duration-200"
                   aria-label="Instagram"
                 >
                   <svg className="w-3.5 h-3.5 fill-none stroke-current stroke-2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -383,7 +383,7 @@ export function Chatbot() {
                   href="https://www.linkedin.com/company/sv-closures-private-limited/"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="p-1.5 rounded-lg bg-[#0077b5] text-white hover:scale-105 transition-all duration-200"
+                  className="p-1.5 rounded-lg bg-transparent text-[#0077b5] hover:text-[#005a8a] hover:scale-110 transition-all duration-200"
                   aria-label="LinkedIn"
                 >
                   <svg className="w-3.5 h-3.5 fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -394,7 +394,7 @@ export function Chatbot() {
                   href="https://www.facebook.com/share/1cmyxXExss/"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="p-1.5 rounded-lg bg-[#1877f2] text-white hover:scale-105 transition-all duration-200"
+                  className="p-1.5 rounded-lg bg-transparent text-[#1877f2] hover:text-[#145dbf] hover:scale-110 transition-all duration-200"
                   aria-label="Facebook"
                 >
                   <svg className="w-3.5 h-3.5 fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -438,7 +438,7 @@ export function Chatbot() {
               href="https://www.instagram.com/sv_closures_pvt_ltd?igsh=Y21ubzB6ajBoYjFq"
               target="_blank"
               rel="noopener noreferrer"
-              className="w-10 h-10 rounded-full bg-gradient-to-tr from-[#f9ce34] via-[#ee2a7b] to-[#6228d7] text-white shadow-lg shadow-pink-500/10 flex items-center justify-center transition-all duration-350 hover:scale-110 active:scale-95 hover:shadow-pink-500/30"
+              className="w-10 h-10 rounded-full bg-transparent border border-slate-800 text-[#ee2a7b] hover:text-[#d62470] shadow-lg flex items-center justify-center transition-all duration-350 hover:scale-110 active:scale-95"
               aria-label="Instagram"
             >
               <svg className="w-5 h-5 fill-none stroke-current stroke-2" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -451,7 +451,7 @@ export function Chatbot() {
               href="https://www.linkedin.com/company/sv-closures-private-limited/"
               target="_blank"
               rel="noopener noreferrer"
-              className="w-10 h-10 rounded-full bg-[#0077b5] text-white shadow-lg shadow-blue-500/10 flex items-center justify-center transition-all duration-350 hover:scale-110 active:scale-95 hover:shadow-blue-500/30"
+              className="w-10 h-10 rounded-full bg-transparent border border-slate-800 text-[#0077b5] hover:text-[#005a8a] shadow-lg flex items-center justify-center transition-all duration-350 hover:scale-110 active:scale-95"
               aria-label="LinkedIn"
             >
               <svg className="w-4 h-4 fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
@@ -462,7 +462,7 @@ export function Chatbot() {
               href="https://www.facebook.com/share/1cmyxXExss/"
               target="_blank"
               rel="noopener noreferrer"
-              className="w-10 h-10 rounded-full bg-[#1877f2] text-white shadow-lg shadow-blue-600/10 flex items-center justify-center transition-all duration-350 hover:scale-110 active:scale-95 hover:shadow-blue-600/30"
+              className="w-10 h-10 rounded-full bg-transparent border border-slate-800 text-[#1877f2] hover:text-[#145dbf] shadow-lg flex items-center justify-center transition-all duration-350 hover:scale-110 active:scale-95"
               aria-label="Facebook"
             >
               <svg className="w-4 h-4 fill-current" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
