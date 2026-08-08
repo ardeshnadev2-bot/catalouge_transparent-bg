@@ -35,27 +35,27 @@ export default function ProductRanges() {
 
         {/* Side-by-Side Main Product Ranges */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-          {/* Left: Jerry Cans, Spouts & Dispensing (Always White Background Theme) */}
+          {/* Left: Jerry Cans, Spouts & Dispensing */}
           <motion.div
             initial={{ opacity: 0, x: -30 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
-            className="group relative rounded-3xl overflow-hidden bg-white border border-slate-200 text-text-dark shadow-xl flex flex-col justify-between"
+            className="group relative rounded-3xl overflow-hidden bg-white dark:bg-slate-900/60 border border-slate-200 dark:border-slate-800/60 text-text-dark dark:text-white shadow-xl flex flex-col justify-between transition-all duration-300"
           >
             <div className="p-8 space-y-6">
               <div className="space-y-2">
                 <span className="text-[10px] font-bold uppercase tracking-wider text-primary-green">Range A</span>
-                <h3 className="text-2xl font-extrabold tracking-tight text-text-dark group-hover:text-primary-green transition-colors duration-200">
+                <h3 className="text-2xl font-extrabold tracking-tight text-text-dark dark:text-white group-hover:text-primary-green dark:group-hover:text-primary-green transition-colors duration-200">
                   Industrial Containers & Spouts
                 </h3>
-                <p className="text-xs text-text-light font-light leading-relaxed">
+                <p className="text-xs text-text-light dark:text-slate-400 font-light leading-relaxed">
                   Heavy-duty jerrycans, retractable spout inserts, flexible pouring tubes, and oil packaging systems engineered for chemical, lubricant, and food-grade containment.
                 </p>
               </div>
               
               {/* Product highlights */}
-              <div className="grid grid-cols-2 gap-2 text-[11px] text-text-light">
+              <div className="grid grid-cols-2 gap-2 text-[11px] text-text-light dark:text-slate-400">
                 <div className="flex items-center gap-1.5">
                   <span className="w-1.5 h-1.5 rounded-full bg-primary-green" />
                   <span>Retractable Spouts</span>
@@ -87,37 +87,37 @@ export default function ProductRanges() {
               />
             </div>
 
-            <div className="p-6 bg-slate-50 border-t border-slate-100">
+            <div className="p-6 bg-slate-50 dark:bg-slate-950/40 border-t border-slate-100 dark:border-slate-800/60">
               <button
                 onClick={() => handleExplore('spout')}
-                className="w-full py-3 rounded-xl bg-white hover:bg-slate-50 border border-slate-200 hover:border-primary-green text-xs font-semibold text-text-dark tracking-wide transition-all duration-300 cursor-pointer"
+                className="w-full py-3 rounded-xl bg-white dark:bg-slate-900 hover:bg-slate-50 dark:hover:bg-slate-850 border border-slate-200 dark:border-slate-700 hover:border-primary-green dark:hover:border-primary-green text-xs font-semibold text-text-dark dark:text-white tracking-wide transition-all duration-300 cursor-pointer"
               >
                 Explore Spout & Container Range
               </button>
             </div>
           </motion.div>
 
-          {/* Right: Caps & Closures (Always White Background Theme) */}
+          {/* Right: Caps & Closures */}
           <motion.div
             initial={{ opacity: 0, x: 30 }}
             whileInView={{ opacity: 1, x: 0 }}
             viewport={{ once: true }}
             transition={{ duration: 0.6 }}
-            className="group relative rounded-3xl overflow-hidden bg-white border border-slate-200 text-text-dark shadow-xl flex flex-col justify-between"
+            className="group relative rounded-3xl overflow-hidden bg-white dark:bg-slate-900/60 border border-slate-200 dark:border-slate-800/60 text-text-dark dark:text-white shadow-xl flex flex-col justify-between transition-all duration-300"
           >
             <div className="p-8 space-y-6">
               <div className="space-y-2">
                 <span className="text-[10px] font-bold uppercase tracking-wider text-primary-blue">Range B</span>
-                <h3 className="text-2xl font-extrabold tracking-tight text-text-dark group-hover:text-primary-blue transition-colors duration-200">
+                <h3 className="text-2xl font-extrabold tracking-tight text-text-dark dark:text-white group-hover:text-primary-blue dark:group-hover:text-primary-blue transition-colors duration-200">
                   Precision Caps & Closures
                 </h3>
-                <p className="text-xs text-text-light font-light leading-relaxed">
+                <p className="text-xs text-text-light dark:text-slate-400 font-light leading-relaxed">
                   An extensive collection of colorful continuous thread screw caps, child-resistant lids, flip-tops, custom handles, and specialty lining wads catering to global markets.
                 </p>
               </div>
               
               {/* Product highlights */}
-              <div className="grid grid-cols-2 gap-2 text-[11px] text-text-light">
+              <div className="grid grid-cols-2 gap-2 text-[11px] text-text-light dark:text-slate-400">
                 <div className="flex items-center gap-1.5">
                   <span className="w-1.5 h-1.5 rounded-full bg-primary-blue" />
                   <span>Flip-Top Dispensers</span>
@@ -149,10 +149,10 @@ export default function ProductRanges() {
               />
             </div>
 
-            <div className="p-6 bg-slate-50 border-t border-slate-100">
+            <div className="p-6 bg-slate-50 dark:bg-slate-950/40 border-t border-slate-100 dark:border-slate-800/60">
               <button
                 onClick={() => handleExplore('screw-cap')}
-                className="w-full py-3 rounded-xl bg-white hover:bg-slate-50 border border-slate-200 hover:border-primary-blue text-xs font-semibold text-text-dark tracking-wide transition-all duration-300 cursor-pointer"
+                className="w-full py-3 rounded-xl bg-white dark:bg-slate-900 hover:bg-slate-50 dark:hover:bg-slate-850 border border-slate-200 dark:border-slate-700 hover:border-primary-blue dark:hover:border-primary-blue text-xs font-semibold text-text-dark dark:text-white tracking-wide transition-all duration-300 cursor-pointer"
               >
                 Explore Caps & Closures Range
               </button>

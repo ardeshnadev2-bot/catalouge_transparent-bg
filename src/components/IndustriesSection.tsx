@@ -143,7 +143,7 @@ export default function IndustriesSection() {
             className="w-[39%] h-full relative p-3 sm:p-5 md:p-8 flex flex-col justify-center items-center border-r border-slate-300/25 dark:border-slate-800/40"
           >
             {/* Real HTML selectable text card */}
-            <div className="bg-slate-50/95 dark:bg-slate-900/95 px-6 py-8 sm:px-8 sm:py-10 rounded-[32px] border border-slate-300/40 dark:border-slate-800 shadow-2xl max-w-[340px] md:max-w-[360px] w-full flex flex-col items-center space-y-6 md:space-y-8 text-center transition-all duration-300">
+            <div className="bg-white dark:bg-slate-900 px-6 py-8 sm:px-8 sm:py-10 rounded-[32px] border border-slate-350 dark:border-slate-800 shadow-2xl max-w-[340px] md:max-w-[360px] w-full flex flex-col items-center space-y-6 md:space-y-8 text-center transition-all duration-300">
               <h2 className="text-xl sm:text-3xl md:text-4xl font-extrabold tracking-tight text-slate-900 dark:text-white leading-tight select-all">
                 Closures That <span className="block mt-1 sm:mt-2">Complete the</span> <span className="block mt-1 sm:mt-2">Package</span>
               </h2>
