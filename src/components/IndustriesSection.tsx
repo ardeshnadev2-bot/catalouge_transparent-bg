@@ -135,31 +135,41 @@ export default function IndustriesSection() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
         {/* Banner Block */}
-        <div className="relative rounded-3xl overflow-hidden glass-card mb-20">
-          <div className="relative aspect-[21/9] md:aspect-[21/6] w-full">
-            <Image
-              src="/images/industries_banner_v3.jpg"
-              alt="Tailored Closure Solutions"
-              fill
-              className="object-cover blur-[2px] scale-[1.02]"
-              priority
-            />
-          </div>
-          <div className="p-8 md:p-12 space-y-6 bg-white dark:bg-slate-900/90">
-            <h2 className="text-2xl sm:text-3xl md:text-4xl font-extrabold tracking-tight text-text-dark dark:text-white uppercase">
-              Tailored Closure Solutions for <span className="text-orange-600 dark:text-orange-500">Every Industry</span>
-            </h2>
-            <div>
+        <div className="relative rounded-3xl overflow-hidden shadow-2xl mb-20 w-full aspect-[2.11] flex bg-[#E6E8EA] dark:bg-[#1A1C1E]">
+          {/* Left Side: Brushed Metal Pattern Backdrop & Overlay text/button content */}
+          {/* Left Side: Brushed Metal background with HTML card */}
+          <div 
+            style={{ backgroundImage: 'url(/images/metal_texture.png)', backgroundSize: 'cover' }}
+            className="w-[39%] h-full relative p-3 sm:p-5 md:p-8 flex flex-col justify-center items-center border-r border-slate-300/25 dark:border-slate-800/40"
+          >
+            {/* Real HTML selectable text card */}
+            <div className="bg-slate-50/95 dark:bg-slate-900/95 px-6 py-8 sm:px-8 sm:py-10 rounded-[32px] border border-slate-300/40 dark:border-slate-800 shadow-2xl max-w-[340px] md:max-w-[360px] w-full flex flex-col items-center space-y-6 md:space-y-8 text-center transition-all duration-300">
+              <h2 className="text-xl sm:text-3xl md:text-4xl font-extrabold tracking-tight text-slate-900 dark:text-white leading-tight select-all">
+                Closures That <span className="block mt-1 sm:mt-2">Complete the</span> <span className="block mt-1 sm:mt-2">Package</span>
+              </h2>
+              
               <button
                 onClick={() => {
                   const el = document.getElementById('versatility-grid');
                   if (el) el.scrollIntoView({ behavior: 'smooth' });
                 }}
-                className="inline-block px-8 py-3.5 bg-orange-600 hover:bg-orange-700 text-white font-bold text-sm tracking-wider rounded-xl uppercase transition-all duration-300 transform hover:scale-105 shadow-md shadow-orange-600/20 active:scale-95 cursor-pointer"
+                className="w-full py-3.5 sm:py-4 bg-[#E54B00] hover:bg-[#C84200] text-white font-extrabold text-xs sm:text-sm tracking-wider rounded-2xl uppercase transition-all duration-350 transform hover:scale-[1.03] shadow-md shadow-orange-600/10 active:scale-95 cursor-pointer"
               >
                 Know More
               </button>
             </div>
+          </div>
+
+          {/* Right Side: Closures Photo */}
+          <div className="w-[61%] h-full relative overflow-hidden bg-white">
+            <Image
+              src="/images/industries_banner_right.png"
+              alt="Tailored Closures Presentation"
+              fill
+              className="object-cover"
+              sizes="(max-width: 768px) 60vw, 45vw"
+              priority
+            />
           </div>
         </div>
 
