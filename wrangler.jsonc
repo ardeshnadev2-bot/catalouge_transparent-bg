@@ -1,4 +1,5 @@
 {
+  // Cloudflare Workers configuration for SV Closures Next.js app
   "$schema": "node_modules/wrangler/config-schema.json",
   "name": "sv-closures",
   "main": ".open-next/worker.js",
