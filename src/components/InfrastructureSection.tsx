@@ -40,8 +40,10 @@ const carouselImages = [
   {
     src: '/images/factory_molding_v3.jpg',
     alt: 'Injection Molding Production Floor',
-    title: 'Precision & Efficiency in Every Production Run',
-    description: 'Our state-of-the-art manufacturing facility ensures seamless mass production with high-speed automation and quality control at every stage. From concept to large-scale manufacturing, we deliver customized plastic components with consistency, efficiency, and industry-leading standards.',
+    title: 'High-Speed Production with Consistent Quality',
+    description: `Our state-of-the-art manufacturing facility is designed for efficient large-scale production, combining high-speed automation with robust quality control systems. From product development to high-volume manufacturing, we deliver precision-engineered plastic components with consistency, efficiency, and dependable performance.
+
+Our integrated approach enables us to maintain quality, productivity, and precision at every stage, helping customers achieve reliable packaging solutions and long-term manufacturing value.`,
   },
 
   {
@@ -423,7 +425,7 @@ export default function InfrastructureSection() {
               <h4 className="text-xs md:text-sm font-extrabold text-text-dark dark:text-white leading-tight mb-2 uppercase">
                 {carouselImages[activeIndex].title}
               </h4>
-              <p className="text-[10px] md:text-xs text-text-light dark:text-slate-400 font-light leading-relaxed">
+              <p className="text-[10px] md:text-xs text-text-light dark:text-slate-400 font-light leading-relaxed whitespace-pre-line">
                 {carouselImages[activeIndex].description}
               </p>
             </div>
