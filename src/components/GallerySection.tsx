@@ -18,16 +18,6 @@ interface GalleryItem {
 
 const galleryData: GalleryItem[] = [
   {
-    id: 'gal-testing',
-    title: 'Torque & Leakage Vacuum Testing',
-    category: 'quality',
-    categoryLabel: 'Quality Testing',
-    image: '/images/screw_cap.png',
-    description: 'Rigorous batch quality testing to confirm zero-spill performance.',
-    icon: ShieldCheck,
-    aspect: 'aspect-[4/3]',
-  },
-  {
     id: 'gal-sanitizer',
     title: 'Personal Care Dispensing Caps',
     category: 'products',
@@ -35,26 +25,6 @@ const galleryData: GalleryItem[] = [
     image: '/images/gallery_sanitizer.jpg',
     description: 'Precision flip-top and screw caps designed for sanitizers and consumer care.',
     icon: Box,
-    aspect: 'aspect-[4/3]',
-  },
-  {
-    id: 'gal-injection-molding',
-    title: 'Precision Polymer Injection Molding',
-    category: 'machinery',
-    categoryLabel: 'Machinery',
-    image: '/images/gallery_injection_molding.jpg',
-    description: 'High-tech injection molding units ensuring strict tolerance control.',
-    icon: Settings,
-    aspect: 'aspect-[4/3]',
-  },
-  {
-    id: 'gal-crane-molding',
-    title: 'Overhead Crane & Injection Press',
-    category: 'machinery',
-    categoryLabel: 'Machinery',
-    image: '/images/gallery_crane_molding.jpg',
-    description: 'Heavy-duty overhead crane system supporting modern injection molding machinery.',
-    icon: Settings,
     aspect: 'aspect-[4/3]',
   },
   {
@@ -96,16 +66,6 @@ const galleryData: GalleryItem[] = [
     description: 'Automated assembly systems capping and sorting plastic closures at maximum speed.',
     icon: Settings,
     aspect: 'aspect-[1.5/1]',
-  },
-  {
-    id: 'gal-milacron-molds',
-    title: 'Milacron e-Series Injection Molding Press',
-    category: 'machinery',
-    categoryLabel: 'Machinery',
-    image: '/images/gallery_milacron_molds.jpg',
-    description: 'Heavy-duty Milacron molding systems alongside multi-cavity precision tool components.',
-    icon: Settings,
-    aspect: 'aspect-[1.6/1]',
   },
   {
     id: 'gal-drum-testing',
@@ -154,26 +114,6 @@ const galleryData: GalleryItem[] = [
     categoryLabel: 'Products',
     image: '/images/gallery_plastic_spouts_range.jpg',
     description: 'Multi-color screw caps and pull-out spout components ready for automated packaging lines.',
-    icon: Box,
-    aspect: 'aspect-square',
-  },
-  {
-    id: 'gal-lotion-usage',
-    title: 'Personal Care Cap Usability',
-    category: 'products',
-    categoryLabel: 'Products',
-    image: '/images/gallery_lotion_usage.jpg',
-    description: 'Ergonomic flip-top lotion closure designed for smooth dispensing and one-handed operation.',
-    icon: Box,
-    aspect: 'aspect-square',
-  },
-  {
-    id: 'gal-pouring-usage',
-    title: 'Precision Olive Oil Dispenser',
-    category: 'products',
-    categoryLabel: 'Products',
-    image: '/images/gallery_pouring_usage.jpg',
-    description: 'Pouring insert designed with anti-glug flow control, ensuring splash-free liquid delivery.',
     icon: Box,
     aspect: 'aspect-square',
   },
@@ -334,30 +274,9 @@ export default function GallerySection() {
                     className="object-cover transition-transform duration-500 group-hover:scale-105"
                     sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
                   />
-                  {/* Soft dark gradient overlay for text readability */}
-                  <div className="absolute inset-0 bg-gradient-to-t from-slate-950/80 via-slate-950/30 to-transparent z-10" />
-
-                  {/* Icon wrap */}
-                  <div className="absolute top-4 left-4 z-20 w-8 h-8 rounded-lg bg-slate-950/80 border border-slate-800 flex items-center justify-center text-slate-300">
-                    <item.icon className="w-4 h-4 text-primary-green" />
-                  </div>
-
-                  {/* Expand badge */}
-                  <div className="absolute top-4 right-4 z-20 w-8 h-8 rounded-lg bg-slate-950/80 border border-slate-800 flex items-center justify-center text-slate-300 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
-                    <Expand className="w-4 h-4 hover:text-white" />
-                  </div>
-
-                  {/* Text details bottom overlay */}
-                  <div className="absolute bottom-4 left-4 right-4 z-20 space-y-1 text-white">
-                    <span className="inline-block text-[9px] uppercase font-bold tracking-wider text-primary-green bg-emerald-500/10 px-2 py-0.5 rounded">
-                      {item.categoryLabel}
-                    </span>
-                    <h3 className="text-sm font-bold leading-tight group-hover:text-primary-blue dark:group-hover:text-primary-green transition-colors duration-200">
-                      {item.title}
-                    </h3>
-                    <p className="text-[10px] text-slate-300 font-light opacity-0 group-hover:opacity-100 transition-opacity duration-300 line-clamp-2">
-                      {item.description}
-                    </p>
+                  {/* Hover expand overlay */}
+                  <div className="absolute inset-0 bg-black/0 group-hover:bg-black/10 transition-colors duration-300 z-10 flex items-center justify-center">
+                    <Expand className="w-6 h-6 text-white opacity-0 group-hover:opacity-100 transition-all duration-300 transform scale-75 group-hover:scale-100" />
                   </div>
                 </div>
               </motion.div>
@@ -382,29 +301,18 @@ export default function GallerySection() {
                 className="max-w-3xl w-full bg-slate-900 border border-slate-800 rounded-3xl overflow-hidden shadow-2xl relative"
                 onClick={(e) => e.stopPropagation()}
               >
-                <div className="h-[300px] sm:h-[450px] w-full relative bg-slate-950 flex items-center justify-center border-b border-slate-800">
+                <div className="h-[300px] sm:h-[450px] md:h-[550px] w-full relative bg-slate-950 flex items-center justify-center">
                   <Image
                     src={selectedImage.image}
                     alt={selectedImage.title}
                     fill
-                    className="object-contain"
+                    className="object-contain p-4"
                     sizes="(max-width: 1024px) 100vw, 80vw"
                     priority
                   />
-                </div>
-                <div className="p-6 space-y-2.5">
-                  <span className="inline-block text-[10px] uppercase font-bold tracking-wider text-primary-green bg-emerald-500/10 px-2 py-0.5 rounded">
-                    {selectedImage.categoryLabel}
-                  </span>
-                  <h3 className="text-lg font-bold text-white leading-tight">
-                    {selectedImage.title}
-                  </h3>
-                  <p className="text-xs text-slate-400 font-light leading-relaxed">
-                    {selectedImage.description}
-                  </p>
                   <button
                     onClick={() => setSelectedImage(null)}
-                    className="absolute top-4 right-4 text-slate-400 hover:text-white bg-slate-950/80 border border-slate-800 p-2 rounded-full"
+                    className="absolute top-4 right-4 text-slate-400 hover:text-white bg-slate-950/80 border border-slate-800 p-2 rounded-full z-20 cursor-pointer transition-colors duration-200"
                     aria-label="Close image popup"
                   >
                     <svg viewBox="0 0 24 24" className="w-5 h-5 fill-none stroke-current stroke-2">
