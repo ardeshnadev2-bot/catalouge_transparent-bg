@@ -110,10 +110,10 @@ export default function InfrastructureSection() {
           <div className="absolute inset-0 bg-gradient-to-r from-white/95 via-white/80 to-transparent dark:from-slate-950/95 dark:via-slate-950/70 dark:to-transparent flex items-center">
             <div className="max-w-xl md:max-w-2xl px-6 md:px-12 space-y-4 md:space-y-6">
               <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-extrabold tracking-tight text-text-dark dark:text-white uppercase leading-tight">
-                Tailored Mold <br className="hidden sm:block" /> Development & <br className="hidden sm:block" /> Manufacturing
+                Custom Mold <br className="hidden sm:block" /> Development & <br className="hidden sm:block" /> Advanced Manufacturing
               </h2>
               <p className="text-[10px] sm:text-xs md:text-sm text-text-light dark:text-slate-300 font-light max-w-md leading-relaxed">
-                We design and produce innovative closures that meet your specific product challenges. With in-house mold development and advanced manufacturing, we ensure precision, durability, and cost-effectiveness for custom packaging solutions.
+                At SV Closures, we develop and manufacture innovative closure solutions tailored to your specific product requirements. With in-house mold development, advanced manufacturing capabilities, and stringent quality control, we deliver precision-engineered solutions that combine durability, efficiency, and cost-effectiveness.
               </p>
               <div className="flex flex-wrap items-center gap-4 sm:gap-6 pt-2">
                 <button
