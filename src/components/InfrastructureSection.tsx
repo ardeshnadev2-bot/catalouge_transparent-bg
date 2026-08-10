@@ -281,7 +281,7 @@ export default function InfrastructureSection() {
         <div className="space-y-12">
           <div className="text-center max-w-3xl mx-auto space-y-4">
             <h3 className="text-2xl sm:text-3xl font-extrabold tracking-tight text-text-dark dark:text-white">
-              Certified Quality Through In-House Testing
+              Certified Quality & In-House Testing
             </h3>
             <p className="text-text-light dark:text-slate-400 font-light max-w-2xl mx-auto leading-relaxed">
               Our advanced in-house testing facility performs rigorous scientific quality evaluations to verify leak tightness, chemical durability, and application reliability.
@@ -378,10 +378,10 @@ export default function InfrastructureSection() {
         <div className="space-y-12">
           <div className="text-center max-w-3xl mx-auto space-y-4">
             <h3 className="text-2xl sm:text-3xl font-extrabold tracking-tight text-text-dark dark:text-white">
-              Precision Engineering for Reliable and Efficient Production
+              Precision Engineering for Consistent & Reliable Production
             </h3>
             <p className="text-text-light dark:text-slate-400 font-light max-w-2xl mx-auto leading-relaxed">
-              SV Closures utilizes high-speed automation and precise engineering setups to run mass-production operations with maximum accuracy and consistent quality output.
+              At SV Closures, quality is integrated into every stage of our manufacturing process. Our facility combines advanced automation, precision engineering, and in-house testing capabilities to ensure reliable performance, consistent output, and adherence to defined quality standards.
             </p>
           </div>
  
