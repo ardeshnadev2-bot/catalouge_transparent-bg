@@ -97,7 +97,7 @@ export default function InfrastructureSection() {
         
         {/* Banner Block with Overlay Text */}
         <div className="relative rounded-3xl overflow-hidden glass-card shadow-xl border border-slate-200/10">
-          <div className="relative w-full aspect-[21/9] md:aspect-[21/6]">
+          <div className="relative w-full aspect-[16/10] sm:aspect-[21/9] md:aspect-[21/7.5] lg:aspect-[21/7]">
             <Image
               src="/images/infrastructure_banner_v2.jpg"
               alt="Tailored Mold Development"
@@ -107,7 +107,7 @@ export default function InfrastructureSection() {
             />
           </div>
           {/* Text & Button Overlays */}
-          <div className="absolute inset-0 bg-gradient-to-r from-white/95 via-white/80 to-transparent dark:from-slate-950/95 dark:via-slate-950/70 dark:to-transparent flex items-center">
+          <div className="absolute inset-0 bg-gradient-to-r from-white/95 via-white/80 to-transparent dark:from-slate-950/95 dark:via-slate-950/70 dark:to-transparent flex items-center py-6 sm:py-8 lg:py-10">
             <div className="max-w-xl md:max-w-2xl px-6 md:px-12 space-y-4 md:space-y-6">
               <h2 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-extrabold tracking-tight text-text-dark dark:text-white uppercase leading-tight">
                 Custom Mold <br className="hidden sm:block" /> Development & <br className="hidden sm:block" /> Advanced Manufacturing
