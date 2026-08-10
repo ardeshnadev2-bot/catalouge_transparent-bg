@@ -157,6 +157,46 @@ const galleryData: GalleryItem[] = [
     icon: Box,
     aspect: 'aspect-square',
   },
+  {
+    id: 'gal-lotion-usage',
+    title: 'Personal Care Cap Usability',
+    category: 'products',
+    categoryLabel: 'Products',
+    image: '/images/gallery_lotion_usage.jpg',
+    description: 'Ergonomic flip-top lotion closure designed for smooth dispensing and one-handed operation.',
+    icon: Box,
+    aspect: 'aspect-square',
+  },
+  {
+    id: 'gal-pouring-usage',
+    title: 'Precision Olive Oil Dispenser',
+    category: 'products',
+    categoryLabel: 'Products',
+    image: '/images/gallery_pouring_usage.jpg',
+    description: 'Pouring insert designed with anti-glug flow control, ensuring splash-free liquid delivery.',
+    icon: Box,
+    aspect: 'aspect-square',
+  },
+  {
+    id: 'gal-exports-forklift',
+    title: 'Forklift Cargo Loading Lines',
+    category: 'exports',
+    categoryLabel: 'Export Shipments',
+    image: '/images/gallery_exports_forklift.jpg',
+    description: 'Forklift operator stacking containerized cargo boxes ready for export dispatch.',
+    icon: Ship,
+    aspect: 'aspect-square',
+  },
+  {
+    id: 'gal-exports-pallet',
+    title: 'Palletized Container Shipments',
+    category: 'exports',
+    categoryLabel: 'Export Shipments',
+    image: '/images/gallery_exports_pallet.jpg',
+    description: 'Pallet shrink wrapping and cargo security checks for international ports.',
+    icon: Ship,
+    aspect: 'aspect-square',
+  },
 ];
 
 const filterCategories = [
@@ -164,6 +204,7 @@ const filterCategories = [
   { id: 'factory', name: 'Factory' },
   { id: 'products', name: 'Products' },
   { id: 'machinery', name: 'Machinery' },
+  { id: 'exports', name: 'Shipments' },
   { id: 'quality', name: 'Quality' },
 ];
 
