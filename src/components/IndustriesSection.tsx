@@ -22,6 +22,8 @@ import {
   Globe,
   Users,
   Heart,
+  ShieldCheck,
+  ArrowRight,
 } from 'lucide-react';
 
 const industries = [
@@ -135,39 +137,99 @@ export default function IndustriesSection() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         
         {/* Banner Block */}
-        <div className="relative rounded-3xl overflow-hidden shadow-2xl mb-20 w-full aspect-[2.11] flex bg-[#E6E8EA] dark:bg-[#1A1C1E]">
-          {/* Left Side: Brushed Metal Pattern Backdrop & Overlay text/button content */}
-          {/* Left Side: Brushed Metal background with HTML card */}
-          <div 
-            style={{ backgroundImage: 'url(/images/metal_texture.png)', backgroundSize: 'cover' }}
-            className="w-[39%] h-full relative p-3 sm:p-5 md:p-8 flex flex-col justify-center items-center border-r border-slate-300/25 dark:border-slate-800/40"
-          >
-            {/* Real HTML selectable text card */}
-            <div className="bg-white dark:bg-slate-900 px-6 py-8 sm:px-8 sm:py-10 rounded-[32px] border border-slate-350 dark:border-slate-800 shadow-2xl max-w-[340px] md:max-w-[360px] w-full flex flex-col items-center space-y-6 md:space-y-8 text-center transition-all duration-300">
-              <h2 className="text-xl sm:text-3xl md:text-4xl font-extrabold tracking-tight text-slate-900 dark:text-white leading-tight select-all">
-                Closures That <span className="block mt-1 sm:mt-2">Complete the</span> <span className="block mt-1 sm:mt-2">Package</span>
+        <div className="relative rounded-[32px] overflow-hidden shadow-2xl mb-20 w-full grid grid-cols-1 lg:grid-cols-12 bg-white dark:bg-slate-900 border border-slate-200/65 dark:border-slate-800/85">
+          {/* Left Side: HTML content overlay */}
+          <div className="lg:col-span-6 p-6 sm:p-10 md:p-12 xl:p-16 flex flex-col justify-between space-y-8 relative bg-white dark:bg-slate-900">
+            <div className="absolute inset-0 cap-pattern-overlay opacity-[0.04] pointer-events-none" />
+            
+            <div className="relative space-y-6">
+              <h2 className="text-3xl sm:text-4xl md:text-5xl font-extrabold tracking-tight text-slate-900 dark:text-white leading-tight">
+                Closures That <span className="block text-[#E54B00] dark:text-orange-500">Complete</span> the Package
               </h2>
               
+              <div className="w-16 h-1 bg-[#E54B00] dark:bg-orange-500 rounded-full" />
+              
+              <p className="text-sm sm:text-base text-slate-600 dark:text-slate-400 leading-relaxed font-light">
+                Engineered for performance. Designed for perfection. Our closures ensure safety, freshness, and reliability across every industry.
+              </p>
+              
+              <div className="grid grid-cols-1 sm:grid-cols-2 gap-6 sm:gap-8 pt-4">
+                {/* Point 1 */}
+                <div className="flex gap-3">
+                  <div className="w-10 h-10 rounded-full bg-orange-500/10 flex items-center justify-center text-[#E54B00] dark:text-orange-500 shrink-0">
+                    <ShieldCheck className="w-5 h-5" />
+                  </div>
+                  <div className="space-y-1">
+                    <h4 className="text-sm font-bold text-slate-900 dark:text-white">Secure & Leak-Proof</h4>
+                    <p className="text-xs text-slate-550 dark:text-slate-400 font-light leading-relaxed">
+                      Advanced sealing technology to protect your product integrity.
+                    </p>
+                  </div>
+                </div>
+
+                {/* Point 2 */}
+                <div className="flex gap-3">
+                  <div className="w-10 h-10 rounded-full bg-orange-500/10 flex items-center justify-center text-[#E54B00] dark:text-orange-500 shrink-0">
+                    <Settings className="w-5 h-5" />
+                  </div>
+                  <div className="space-y-1">
+                    <h4 className="text-sm font-bold text-slate-900 dark:text-white">Precision Engineered</h4>
+                    <p className="text-xs text-slate-550 dark:text-slate-400 font-light leading-relaxed">
+                      Built with high-quality materials for consistent performance.
+                    </p>
+                  </div>
+                </div>
+
+                {/* Point 3 */}
+                <div className="flex gap-3">
+                  <div className="w-10 h-10 rounded-full bg-orange-500/10 flex items-center justify-center text-[#E54B00] dark:text-orange-500 shrink-0">
+                    <Leaf className="w-5 h-5" />
+                  </div>
+                  <div className="space-y-1">
+                    <h4 className="text-sm font-bold text-slate-900 dark:text-white">Sustainable Choice</h4>
+                    <p className="text-xs text-slate-550 dark:text-slate-400 font-light leading-relaxed">
+                      Recyclable and eco-friendly solutions for a better tomorrow.
+                    </p>
+                  </div>
+                </div>
+
+                {/* Point 4 */}
+                <div className="flex gap-3">
+                  <div className="w-10 h-10 rounded-full bg-orange-500/10 flex items-center justify-center text-[#E54B00] dark:text-orange-500 shrink-0">
+                    <Globe className="w-5 h-5" />
+                  </div>
+                  <div className="space-y-1">
+                    <h4 className="text-sm font-bold text-slate-900 dark:text-white">Versatile Applications</h4>
+                    <p className="text-xs text-slate-550 dark:text-slate-400 font-light leading-relaxed">
+                      Ideal for food, beverage, pharma, cosmetics, and industrial packaging.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div className="pt-6 relative">
               <button
                 onClick={() => {
                   const el = document.getElementById('versatility-grid');
                   if (el) el.scrollIntoView({ behavior: 'smooth' });
                 }}
-                className="w-full py-3.5 sm:py-4 bg-[#E54B00] hover:bg-[#C84200] text-white font-extrabold text-xs sm:text-sm tracking-wider rounded-2xl uppercase transition-all duration-350 transform hover:scale-[1.03] shadow-md shadow-orange-600/10 active:scale-95 cursor-pointer"
+                className="flex items-center justify-center gap-2 px-8 py-3.5 bg-[#E54B00] hover:bg-[#C84200] text-white font-extrabold text-xs sm:text-sm tracking-wider rounded-xl uppercase transition-all duration-350 transform hover:scale-[1.03] shadow-md shadow-orange-600/15 active:scale-95 cursor-pointer group"
               >
                 Know More
+                <ArrowRight className="w-4 h-4 transition-transform group-hover:translate-x-1" />
               </button>
             </div>
           </div>
 
           {/* Right Side: Closures Photo */}
-          <div className="w-[61%] h-full relative overflow-hidden bg-white">
+          <div className="lg:col-span-6 min-h-[300px] sm:min-h-[400px] lg:min-h-full relative overflow-hidden bg-[#EFF2F6] dark:bg-slate-950/60">
             <Image
               src="/images/industries_banner_right_v2.png"
               alt="Tailored Closures Presentation"
               fill
               className="object-cover"
-              sizes="(max-width: 768px) 60vw, 45vw"
+              sizes="(max-width: 1024px) 100vw, 50vw"
               priority
             />
           </div>
