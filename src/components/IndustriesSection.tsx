@@ -392,14 +392,12 @@ export default function IndustriesSection() {
             {/* Framed video wrapper */}
             <div className="relative glass-card rounded-2xl overflow-hidden p-2 bg-slate-100/50 dark:bg-slate-900/50">
               <div className="relative aspect-video w-full rounded-xl overflow-hidden bg-slate-950 shadow-inner">
-                <video
-                  src="/images/machinery_factory.mp4"
-                  className="absolute inset-0 w-full h-full object-cover filter blur-[2px] brightness-50"
-                  autoPlay
-                  loop
-                  muted
-                  playsInline
-                  controls={false}
+                <Image
+                  src="/images/gallery_fanuc_molding.jpg"
+                  alt="Virtual Factory Tour Preview"
+                  fill
+                  className="absolute inset-0 w-full h-full object-cover filter blur-[1px] brightness-40 group-hover:scale-102 transition-transform duration-700"
+                  sizes="(max-width: 1024px) 100vw, 80vw"
                 />
                 {/* Coming Soon Glassmorphic Overlay */}
                 <div className="absolute inset-0 flex flex-col items-center justify-center bg-slate-950/40 backdrop-blur-[4px] z-10 p-4 text-center">
