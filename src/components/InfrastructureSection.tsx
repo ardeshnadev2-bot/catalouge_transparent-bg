@@ -142,10 +142,10 @@ export default function InfrastructureSection() {
           {/* Left Column: text & checklist */}
           <div className="lg:col-span-7 space-y-6">
             <h3 className="text-2xl sm:text-3xl font-extrabold tracking-tight text-text-dark dark:text-white uppercase leading-tight">
-              Innovative Solutions for Your <span className="text-orange-600 dark:text-orange-500">Unique Packaging Needs</span>
+              Innovative Manufacturing for Your <span className="text-orange-600 dark:text-orange-500">Unique Packaging Requirements</span>
             </h3>
             <p className="text-sm text-text-light dark:text-slate-400 font-light leading-relaxed">
-              With advanced injection and blow molding capabilities and an in-house tool room for mold development, we provide end-to-end manufacturing solutions. From concept to production, we bring your ideas to life with precision and efficiency.
+              With advanced injection and blow molding technologies, supported by a fully equipped in-house tool room, we provide comprehensive manufacturing solutions from concept to production. Our experienced team transforms ideas into reliable, high-quality plastic components with precision, speed, and efficiency.
             </p>
             
             {/* Vertical Manufacturing Timeline */}
@@ -165,14 +165,14 @@ export default function InfrastructureSection() {
                   <CheckCircle2 className="w-4 h-4 text-primary-blue" />
                 </div>
                 <div>
-                  <h4 className="text-sm font-bold text-text-dark dark:text-white flex items-center gap-2">
-                    Custom Mold Development 
+                  <h4 className="text-sm font-bold text-text-dark dark:text-white flex items-center gap-2 flex-wrap">
+                    Customized Mold Development
                     <span className="text-[10px] px-2 py-0.5 rounded-full bg-primary-blue/10 text-primary-blue font-semibold">
                       <AnimatedCounter value="150" />+ Molds
                     </span>
                   </h4>
-                  <p className="text-xs text-text-light dark:text-slate-400 font-light mt-0.5 leading-relaxed">
-                    We design and manufacture high-quality molds tailored to your unique product requirements.
+                  <p className="text-xs text-text-light dark:text-slate-400 font-light mt-1.5 leading-relaxed">
+                    Our dedicated mold development capabilities enable us to design and manufacture high-precision molds tailored to individual product specifications, ensuring accuracy, durability, and consistent performance.
                   </p>
                 </div>
               </motion.div>
@@ -189,14 +189,14 @@ export default function InfrastructureSection() {
                   <CheckCircle2 className="w-4 h-4 text-primary-green" />
                 </div>
                 <div>
-                  <h4 className="text-sm font-bold text-text-dark dark:text-white flex items-center gap-2">
-                    Injection & Blow Molding
+                  <h4 className="text-sm font-bold text-text-dark dark:text-white flex items-center gap-2 flex-wrap">
+                    Advanced Injection & Blow Molding
                     <span className="text-[10px] px-2 py-0.5 rounded-full bg-primary-green/10 text-primary-green font-semibold">
-                      <AnimatedCounter value="20" />M+ Monthly
+                      <AnimatedCounter value="20" />M+ Monthly Production
                     </span>
                   </h4>
-                  <p className="text-xs text-text-light dark:text-slate-400 font-light mt-0.5 leading-relaxed">
-                    Our advanced machinery enables the production of a wide range of plastic components with superior quality.
+                  <p className="text-xs text-text-light dark:text-slate-400 font-light mt-1.5 leading-relaxed">
+                    Equipped with advanced injection and blow molding machinery, we manufacture a wide range of plastic components while maintaining consistent quality, high productivity, and operational efficiency.
                   </p>
                 </div>
               </motion.div>
@@ -213,9 +213,9 @@ export default function InfrastructureSection() {
                   <CheckCircle2 className="w-4 h-4 text-dark-green" />
                 </div>
                 <div>
-                  <h4 className="text-sm font-bold text-text-dark dark:text-white">Versatile Manufacturing</h4>
-                  <p className="text-xs text-text-light dark:text-slate-400 font-light mt-0.5 leading-relaxed">
-                    From closures and spouts to specialized plastic parts, we cater to diverse industry needs.
+                  <h4 className="text-sm font-bold text-text-dark dark:text-white">Diverse & Flexible Manufacturing Capabilities</h4>
+                  <p className="text-xs text-text-light dark:text-slate-400 font-light mt-1.5 leading-relaxed">
+                    From closures and spouts to specialized plastic components, our versatile manufacturing capabilities allow us to serve a wide range of packaging and industrial applications with customized solutions.
                   </p>
                 </div>
               </motion.div>
@@ -232,9 +232,9 @@ export default function InfrastructureSection() {
                   <CheckCircle2 className="w-4 h-4 text-primary-blue" />
                 </div>
                 <div>
-                  <h4 className="text-sm font-bold text-text-dark dark:text-white">Complete Development Support</h4>
-                  <p className="text-xs text-text-light dark:text-slate-400 font-light mt-0.5 leading-relaxed">
-                    We offer expert guidance from design optimization to full-scale production for cost-effective and innovative solutions.
+                  <h4 className="text-sm font-bold text-text-dark dark:text-white">Expert Product Development Support</h4>
+                  <p className="text-xs text-text-light dark:text-slate-400 font-light mt-1.5 leading-relaxed">
+                    From initial concept and design optimization to mold development and production, our technical team provides complete development support to achieve functional, efficient, and commercially viable solutions.
                   </p>
                 </div>
               </motion.div>
@@ -251,9 +251,9 @@ export default function InfrastructureSection() {
                   <CheckCircle2 className="w-4 h-4 text-primary-green" />
                 </div>
                 <div>
-                  <h4 className="text-sm font-bold text-text-dark dark:text-white">End-to-End Solutions</h4>
-                  <p className="text-xs text-text-light dark:text-slate-400 font-light mt-0.5 leading-relaxed">
-                    From mold development to production and final delivery, we manage the entire process to ensure seamless execution and on-time supply.
+                  <h4 className="text-sm font-bold text-text-dark dark:text-white">Complete End-to-End Manufacturing Solutions</h4>
+                  <p className="text-xs text-text-light dark:text-slate-400 font-light mt-1.5 leading-relaxed">
+                    We manage every stage of the manufacturing process—from mold development and product trials to mass production, quality inspection, and final delivery—ensuring seamless execution, consistent quality, and reliable supply.
                   </p>
                 </div>
               </motion.div>
