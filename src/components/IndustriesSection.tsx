@@ -225,7 +225,7 @@ export default function IndustriesSection() {
           {/* Right Side: Closures Photo */}
           <div className="lg:col-span-6 min-h-[300px] sm:min-h-[400px] lg:min-h-full relative overflow-hidden bg-white dark:bg-slate-950/40 flex items-center justify-center">
             <Image
-              src="/images/industries_banner_right_v2.png"
+              src="/images/industries_banner_right_v3.png"
               alt="Tailored Closures Presentation"
               fill
               className="object-contain p-2 sm:p-4 lg:p-6"
