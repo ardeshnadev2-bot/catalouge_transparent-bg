@@ -59,7 +59,7 @@ export default function HeroSection() {
     <section
       id="home"
       onMouseMove={handleMouseMove}
-      className="relative min-h-screen flex items-center pt-24 pb-12 lg:pt-32 lg:pb-20 overflow-hidden bg-gradient-to-b from-blue-50/20 via-transparent to-transparent dark:from-slate-950/40 dark:via-slate-900/20 dark:to-transparent z-10"
+      className="relative min-h-[85vh] flex items-center pt-24 pb-6 lg:pt-32 lg:pb-10 overflow-hidden bg-gradient-to-b from-blue-50/20 via-transparent to-transparent dark:from-slate-950/40 dark:via-slate-900/20 dark:to-transparent z-10"
     >
       {/* Cap Pattern Overlay background */}
       <div className="absolute inset-0 cap-pattern-overlay opacity-10 pointer-events-none -z-20" />
