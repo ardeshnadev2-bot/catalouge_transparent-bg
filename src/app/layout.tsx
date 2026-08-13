@@ -34,14 +34,6 @@ export const metadata: Metadata = {
     "edible oil caps"
   ],
   authors: [{ name: "SV Closures Private Limited" }],
-  icons: {
-    icon: [
-      { url: "/icon.png?v=2", type: "image/png" },
-      { url: "/favicon.ico?v=2", type: "image/x-icon" }
-    ],
-    shortcut: "/favicon.ico?v=2",
-    apple: "/icon.png?v=2"
-  },
   openGraph: {
     title: "SV Closures | Premium Plastic Caps & Closures Manufacturer",
     description: "Manufacturing high-quality plastic caps, closures, spouts, and dispensing systems trusted by industries worldwide.",
